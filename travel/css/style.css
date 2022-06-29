@@ -55,7 +55,7 @@ body {
     background-image: url("../assets/img/footer.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
-    max-width: 1440px;
+    width: 1440px;
     margin: 0 auto;
 }
 
@@ -329,10 +329,10 @@ form {
 }
 
 .stories-container {
-    max-width: 1440px;
+    width: 1440px;
     background-color: rgba(255, 255, 255, 0.7);
     padding-bottom: 41px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .stories-header {
