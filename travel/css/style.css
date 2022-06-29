@@ -48,6 +48,8 @@
 
 html {
     background-color: #FFFFFF;
+    scroll-behavior: smooth;
+
 }
 
 body {
@@ -294,6 +296,7 @@ form {
     margin: 0 auto;
     margin-top: 40px;
     width: fit-content;
+    padding-left: 3px;
 }
 
 .btn-find {
@@ -386,6 +389,7 @@ form {
     font-weight: bold;
 }
 
+
 .btn-see-more {
     display: flex;
     flex-direction: row;
@@ -410,39 +414,81 @@ form {
 
 .footer-container {
     height: 61px;
+    width: 1200px;
+    margin: 0px auto;
 }
 
 .footer-wrapper {
-    width: 1200px;
-    margin: auto;
-    height: fit-content;
+    height: 61px;
+    margin: auto 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    align-content: center;
+    
+}
 
+.footer-flex-item {
+    flex-basis: 400px;
+}
+
+.footer-center {
+    flex-basis: 400px;
+}
+
+.my-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style: none;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+}
+
+.my-list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.my-list-link {
+    
+}
+
+.my-list-link img {
+    margin: 0;
+    padding: 0;
+    height: 40px;
 }
 
 .copyright {
-    display: inline-block;
-    margin: auto;
-    margin-left: 470px;
+    margin: auto 10px;
     text-align: center;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 61px;
     color: #FFFFFF;
 }
 
 .social-media-container {
-    display: inline-flex;
-    justify-content: center;
+    display: flex;
     align-items: center;
     align-content: center;
     gap: 16px;
-    float: right;
+
     text-decoration: none;
     list-style: none;
     margin: 0;
-    margin-top: 11px;
+    padding: 0;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .social-media {
@@ -455,6 +501,10 @@ form {
     height: fit-content;
     text-decoration: none;
     list-style: none;
+}
+
+.social-media-link {
+    text-decoration: none;
 }
 
 .social-media svg {
