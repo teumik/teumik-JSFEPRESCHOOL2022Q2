@@ -155,7 +155,7 @@ form {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    outline: none !important;
+    outline: none;
 }
 
 .btn-sumbit {
@@ -208,7 +208,6 @@ form {
     align-items: center;
     margin: 0 11px;
     margin-top: 39px;
-
 }
 
 .steps-section {
@@ -516,4 +515,75 @@ form {
 .social-media svg {
     display: block;
     margin: auto;
+}
+
+.button-all {
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.button-all:hover {
+    box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.3), 1px 3px 5px rgba(13, 96, 111, 0.15);
+    text-shadow: 1px 3px 5px rgba(4, 31, 35, 0.8);
+    background-color: rgba(13, 96, 111, 0.9);
+
+}
+
+.button-all:active {
+    box-shadow: inset 0px 6px 6px rgba(0, 0, 0, 0.5), 0px 3px 5px rgba(13, 96, 111, 0.3);
+    background-color: rgba(242, 120, 92);
+    text-shadow: 1px 3px 5px rgba(4, 31, 35, 0.8);
+}
+
+.nav-link {
+    transition: all 0.2s ease;
+}
+
+.nav-link:hover {
+    border-radius: 10px;
+    /* color: rgb(13, 96, 111); */
+    text-shadow: 1px 3px 8px rgb(186, 55, 26);
+}
+
+.nav-link:active {
+    color: rgb(186, 55, 26);
+    text-shadow: 1px 3px 8px rgb(186, 55, 26);
+}
+
+.stories-read-more {
+    transition: all 0.2s ease;
+}
+
+.stories-read-more:hover {
+    color: rgba(242, 120, 92);
+}
+
+.stories-read-more:active {
+    color: rgba(242, 120, 92, 0.3);
+}
+
+.link-hover:hover {
+    filter: brightness(0) saturate(100%) invert(57%) sepia(74%) saturate(713%) hue-rotate(321deg) brightness(97%) contrast(95%);
+
+}
+
+.link-hover:active {
+    filter: brightness(0) saturate(100%) invert(67%) sepia(48%) saturate(421%) hue-rotate(321deg) brightness(99%) contrast(90%);
+}
+
+.search {
+    transition: all 0.2s ease;
+}
+
+.search:focus {
+    box-sizing: border-box;
+    outline: 3px solid #F2785C;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 21px;
+}
+
+.search:focus::placeholder {
+    color: transparent;
 }
