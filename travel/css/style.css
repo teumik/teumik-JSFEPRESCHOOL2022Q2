@@ -1,10 +1,23 @@
-.burger {
+.popup {
+    display: none;
+}
+
+.overlay {
+    display: none;
+}
+
+.burger-container {
     display: none;
 }
 
 .arrow-container {
     display: none;
 }
+
+.story-text.short {
+    display: none;
+}
+
 
 .magra-bold {
     font-family: 'Magra', sans-serif;
@@ -602,6 +615,10 @@ form {
 
     }
 
+    .story-text.wide {
+        display: none;
+    }
+
     .travel__name,
     .navbar,
     .btn-login,
@@ -612,9 +629,9 @@ form {
         display: none;
     }
 
-    .burger {
+    .burger-container {
         display: block;
-        margin: -2px 4px 0 0;
+        margin: 2px 4px 0 0;
     }
 
     .start-planning {
@@ -905,7 +922,8 @@ form {
         line-height: 13px;
     }
 
-    .story-text {
+    .story-text.short {
+        display: block;
         margin: 0;
         font-family: 'Aleo';
         font-style: normal;
@@ -1022,15 +1040,15 @@ form {
     }
     
     .popup {
-        right: -1000px;
-        transform: scale(0);
-
+        display: none;
+        right: -3000px;
         transition: all 1.5s;
 
 
     }
 
     .popup.active {
+        display: none;
         position: absolute;
         z-index: 9999;
         top: 0;
@@ -1039,13 +1057,13 @@ form {
         background: #F2785C;
         box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
         border-radius: 10px;
-        transform: scale(1);
 
         transition: all 1.5s;
 
     }
 
     .overlay {
+        display: none;
         position: fixed;
         z-index: 999;
         top: 0;
@@ -1061,6 +1079,7 @@ form {
     }
 
     .overlay.active {
+        display: none;
         opacity: 0.4;
         pointer-events: all;
         transition: all 1.5s;
