@@ -1031,8 +1031,7 @@ form {
     }
 
     .popup.active {
-        display: block;
-        position: fixed;
+        position: absolute;
         z-index: 9999;
         top: 0;
         right: 0;
@@ -1048,7 +1047,6 @@ form {
 
     .overlay {
         position: fixed;
-        display: block;
         z-index: 999;
         top: 0;
         left: 0;
