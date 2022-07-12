@@ -1029,14 +1029,14 @@ form {
         position: absolute;
         width: 80px;
         top: 12px;
-        left: 20px;
+        left: 21px;
     }
 
     .my-list-item-right .my-list-link img{
         display: block;
         position: absolute;
         top: 12px;
-        left: 335px;
+        left: 301px;
     }
     
     .popup {
