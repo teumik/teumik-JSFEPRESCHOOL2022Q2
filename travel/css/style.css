@@ -1,12 +1,12 @@
-.popup {
-    display: none;
-}
-
 .overlay {
     display: none;
 }
 
 .burger-container {
+    display: none;
+}
+
+.popup {
     display: none;
 }
 
@@ -543,7 +543,6 @@ form {
     box-shadow: 1px 6px 6px rgba(0, 0, 0, 0.3), 1px 3px 5px rgba(13, 96, 111, 0.15);
     text-shadow: 1px 3px 5px rgba(4, 31, 35, 0.8);
     background-color: rgba(13, 96, 111, 0.9);
-
 }
 
 .button-all:active {
@@ -591,6 +590,14 @@ form {
     transition: all 0.2s ease;
 }
 
+.search:hover {
+    box-sizing: border-box;
+    outline: 3px solid rgba(242, 120, 92, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 21px;
+}
+
 .search:focus {
     box-sizing: border-box;
     outline: 3px solid #F2785C;
@@ -611,8 +618,6 @@ form {
         background-image: url(../assets/img/footer-mobile.jpg);
         background-repeat: no-repeat;
         background-position: center bottom;
-        border-radius: 0 0 30px 30px;
-
     }
 
     .story-text.wide {
@@ -643,12 +648,9 @@ form {
 
     .preview-container {
         height: 251px;
-
         background-image: url(../assets/img/garrett-parker-DlkF4-dbCOU-unsplash\ 2.jpg);
         background-size: 390px;
         background-repeat: no-repeat;
-
-        border-radius: 30px 30px 0 0;
     }
 
     .form-container {
@@ -663,8 +665,14 @@ form {
 
     .search {
         width: 210px;
+        margin: auto 16px;
         padding: 0;
-        margin: 11px 16px;
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        transition: none;
     }
 
     .search::placeholder {
@@ -675,18 +683,21 @@ form {
         line-height: 17px;
     }
 
+    .search:hover {
+        box-sizing: border-box;
+        outline: 3px solid rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+        padding: 14px 6px;
+        margin-left: 10px;
+        transition: all 0.2s ease;
+    }
+
     .search:focus {
         box-sizing: border-box;
         outline: 3px solid #F2785C;
         border-radius: 10px;
         padding: 14px 6px;
         margin-left: 10px;
-
-        font-family: 'Aleo';
-        font-style: italic;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 17px;
     }
 
     .button-all {
@@ -694,12 +705,12 @@ form {
         height: 30px;
         padding: 0;
         margin: 9px;
-
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 500;
         font-size: 11px;
         line-height: 15px;
+        transition: none;
     }
 
     .preview-container,
@@ -714,18 +725,14 @@ form {
         width: 358px;
         height: 120px;
         padding: 0 16px;
-
         background: rgb(13, 96, 111);
         background: linear-gradient(180deg, rgba(13, 96, 111, 1) 0%, rgba(13, 96, 111, 0) 52%);
-
-        border-radius: 30px 30px 0 0;
         box-shadow: none;
     }
 
     .section-header {
         margin: 20px;
         padding: 0;
-
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 500;
@@ -737,13 +744,11 @@ form {
         margin: 0;
         margin-top: 21px;
         padding: 0;
-
     }
 
     .steps-section {
         margin: 0 15px;
         padding: 0;
-
         width: 80px;
     }
 
@@ -765,7 +770,6 @@ form {
     .steps-step {
         margin: 0;
         padding: 0;
-
         width: 70px;
         height: 70px;
     }
@@ -773,7 +777,6 @@ form {
     .steps-text {
         margin: 20px 0 0;
         padding: 0;
-
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
@@ -914,7 +917,6 @@ form {
 
     .stories-story-header {
         margin: 5px 0 10px;
-
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 700;
@@ -924,14 +926,13 @@ form {
 
     .story-text.short {
         display: block;
+        width: 195px;
         margin: 0;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
         font-size: 9px;
         line-height: 11px;
-
-        width: 195px;
         display: -webkit-box;
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 8;
@@ -944,6 +945,8 @@ form {
         font-style: normal;
         font-size: 9px;
         line-height: 11px;
+        transition: none;
+
     }
 
     .story-img-container {
@@ -956,7 +959,6 @@ form {
     .place-img {
         width: 155px;
         height: 130px;
-
     }
 
     .img-boat {
@@ -979,7 +981,6 @@ form {
         height: 130px;
         margin: 10px 15px 15px;
         gap: 10px;
-
     }
 
     .stories-story-last {
@@ -1024,7 +1025,7 @@ form {
         position: absolute;
     }
 
-    .my-list-item-left .my-list-link img{
+    .my-list-item-left .my-list-link img {
         display: block;
         position: absolute;
         width: 80px;
@@ -1032,40 +1033,34 @@ form {
         left: 21px;
     }
 
-    .my-list-item-right .my-list-link img{
+    .my-list-item-right .my-list-link img {
         display: block;
         position: absolute;
         top: 12px;
         left: 301px;
     }
-    
+
     .popup {
-        display: none;
-        right: -3000px;
-        transition: all 1.5s;
-
-
-    }
-
-    .popup.active {
-        display: none;
-        position: absolute;
-        z-index: 9999;
-        top: 0;
-        right: 0;
+        display: block;
         width: 165px;
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: -170px;
         background: #F2785C;
         box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
         border-radius: 10px;
+        transition: right 0.3s ease-in;
+    }
 
-        transition: all 1.5s;
-
+    .popup.active {
+        right: 0;
     }
 
     .overlay {
-        display: none;
+        display: block;
         position: fixed;
-        z-index: 999;
+        z-index: 99;
         top: 0;
         left: 0;
         right: 0;
@@ -1073,17 +1068,12 @@ form {
         background-color: rgb(0, 0, 0);
         opacity: 0;
         pointer-events: none;
-
-        transition: all 1.5s;
-
+        transition: opacity 0.3s ease-in;
     }
 
     .overlay.active {
-        display: none;
         opacity: 0.4;
         pointer-events: all;
-        transition: all 1.5s;
-
     }
 
     .popup__close {
@@ -1113,7 +1103,7 @@ form {
         padding-right: 0;
         color: #FFFFFF;
         text-decoration: none;
-        text-align: end; 
+        text-align: end;
         transition: all 0.2s ease;
     }
 
@@ -1125,7 +1115,7 @@ form {
         color: rgb(186, 55, 26);
         text-shadow: 1px 3px 8px rgb(186, 55, 26);
     }
-    
+
     .close_svg_container {
         opacity: 0.7;
         cursor: pointer;
@@ -1141,14 +1131,18 @@ form {
         fill: rgba(186, 55, 26, 1);
     }
 
+    .burger {
+        transition: all 0.3s 0.1s ease;
+    }
+
     .burger:hover {
         cursor: pointer;
     }
 
-    .burger:active {
+    .burger:active,
+    .burger:hover {
         transform: rotate(90deg);
-        transition: all 0.2s ease;
-        filter: drop-shadow(1px 1px 1px rgb(0 0 0 / 0.7));
+        transition: all 0.3s ease;
     }
 
 

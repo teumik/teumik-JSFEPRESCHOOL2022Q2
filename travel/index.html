@@ -19,7 +19,7 @@
 
 <body>
     <div class="container">
-        <header class="header-container container">
+        <header class="header-container container" id="head">
             <div class="logo">
                 <svg class="travel-svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -38,46 +38,56 @@
                 </ul>
             </nav>
             <button class="button-all btn-login red-hat-text" type="submit">Login</button>
-            <div class="burger-container">
-                <svg class="burger" width="35" height="32" viewBox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M29.2396 14.6667H5.76042C4.99527 14.6667 4.375 15.2338 4.375 15.9333V16.0667C4.375 16.7662 4.99527 17.3333 5.76042 17.3333H29.2396C30.0047 17.3333 30.625 16.7662 30.625 16.0667V15.9333C30.625 15.2338 30.0047 14.6667 29.2396 14.6667Z" fill="white"/>
-                    <path d="M29.2396 21.3333H5.76042C4.99527 21.3333 4.375 21.9004 4.375 22.6V22.7333C4.375 23.4329 4.99527 24 5.76042 24H29.2396C30.0047 24 30.625 23.4329 30.625 22.7333V22.6C30.625 21.9004 30.0047 21.3333 29.2396 21.3333Z" fill="white"/>
-                    <path d="M29.2396 8H5.76042C4.99527 8 4.375 8.56711 4.375 9.26667V9.4C4.375 10.0996 4.99527 10.6667 5.76042 10.6667H29.2396C30.0047 10.6667 30.625 10.0996 30.625 9.4V9.26667C30.625 8.56711 30.0047 8 29.2396 8Z" fill="white"/>
+            <div onclick="addClass()" class="burger-container">
+                <svg class="burger" width="35" height="32" viewBox="0 0 35 32" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M29.2396 14.6667H5.76042C4.99527 14.6667 4.375 15.2338 4.375 15.9333V16.0667C4.375 16.7662 4.99527 17.3333 5.76042 17.3333H29.2396C30.0047 17.3333 30.625 16.7662 30.625 16.0667V15.9333C30.625 15.2338 30.0047 14.6667 29.2396 14.6667Z"
+                        fill="white" />
+                    <path
+                        d="M29.2396 21.3333H5.76042C4.99527 21.3333 4.375 21.9004 4.375 22.6V22.7333C4.375 23.4329 4.99527 24 5.76042 24H29.2396C30.0047 24 30.625 23.4329 30.625 22.7333V22.6C30.625 21.9004 30.0047 21.3333 29.2396 21.3333Z"
+                        fill="white" />
+                    <path
+                        d="M29.2396 8H5.76042C4.99527 8 4.375 8.56711 4.375 9.26667V9.4C4.375 10.0996 4.99527 10.6667 5.76042 10.6667H29.2396C30.0047 10.6667 30.625 10.0996 30.625 9.4V9.26667C30.625 8.56711 30.0047 8 29.2396 8Z"
+                        fill="white" />
                 </svg>
             </div>
-            <div class="popup active" id="sideMenu" onclick="showPopup()">
-                <nav class="popup__nav">
-                    <div class="popup__close">
-                        <div class="close_svg_container" href="">
-                            <svg class="close_svg" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M16.1751 15L22.2501 8.925C22.3866 8.76559 22.4579 8.56052 22.4498 8.35079C22.4417 8.14106 22.3548 7.94211 22.2064 7.7937C22.058 7.64529 21.859 7.55835 21.6493 7.55024C21.4395 7.54214 21.2345 7.61348 21.0751 7.75L15.0001 13.825L8.92506 7.74167C8.76564 7.60515 8.56058 7.53381 8.35085 7.54191C8.14112 7.55001 7.94217 7.63696 7.79376 7.78537C7.64534 7.93378 7.5584 8.13273 7.5503 8.34246C7.5422 8.55219 7.61354 8.75725 7.75006 8.91667L13.8251 15L7.74173 21.075C7.65449 21.1497 7.58364 21.2416 7.53362 21.345C7.4836 21.4484 7.45549 21.561 7.45106 21.6758C7.44663 21.7906 7.46597 21.905 7.50786 22.0119C7.54976 22.1189 7.61331 22.216 7.69452 22.2972C7.77573 22.3784 7.87285 22.442 7.97979 22.4839C8.08673 22.5258 8.20117 22.5451 8.31594 22.5407C8.4307 22.5362 8.54331 22.5081 8.6467 22.4581C8.75009 22.4081 8.84202 22.3372 8.91673 22.25L15.0001 16.175L21.0751 22.25C21.2345 22.3865 21.4395 22.4579 21.6493 22.4498C21.859 22.4417 22.058 22.3547 22.2064 22.2063C22.3548 22.0579 22.4417 21.8589 22.4498 21.6492C22.4579 21.4395 22.3866 21.2344 22.2501 21.075L16.1751 15Z" fill="white" fill-opacity="1"/>
-                            </svg>                            
-                        </div>
-                    </div>
-                    <ul class="popup__nav_list">
-                        <li class="popup__nav_item">
-                            <a href="#steps" class="popup__nav_link">How It Works</a>
-                        </li>
-                        <li class="popup__nav_item">
-                            <a href="#preview" class="popup__nav_link">Plan Your Trip</a>
-                        </li>
-                        <li class="popup__nav_item">
-                            <a href="#destinations" class="popup__nav_link">Destinations</a>
-                        </li>
-                        <li class="popup__nav_item">
-                            <a href="#stories" class="popup__nav_link">Travel Stories</a>
-                        </li>
-                        <li class="popup__nav_item">
-                            <a href="" class="popup__nav_link">Account</a>
-                        </li>
-                        <li class="popup__nav_item">
-                            <a href="#social-media" class="popup__nav_link">Social Media</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="overlay active"></div>
         </header>
+        <div class="popup" id="pop">
+            <nav class="popup__nav">
+                <div onclick="closePop()" class="popup__close close" id="x">
+                    <div class="close_svg_container">
+                        <svg class="close_svg" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M16.1751 15L22.2501 8.925C22.3866 8.76559 22.4579 8.56052 22.4498 8.35079C22.4417 8.14106 22.3548 7.94211 22.2064 7.7937C22.058 7.64529 21.859 7.55835 21.6493 7.55024C21.4395 7.54214 21.2345 7.61348 21.0751 7.75L15.0001 13.825L8.92506 7.74167C8.76564 7.60515 8.56058 7.53381 8.35085 7.54191C8.14112 7.55001 7.94217 7.63696 7.79376 7.78537C7.64534 7.93378 7.5584 8.13273 7.5503 8.34246C7.5422 8.55219 7.61354 8.75725 7.75006 8.91667L13.8251 15L7.74173 21.075C7.65449 21.1497 7.58364 21.2416 7.53362 21.345C7.4836 21.4484 7.45549 21.561 7.45106 21.6758C7.44663 21.7906 7.46597 21.905 7.50786 22.0119C7.54976 22.1189 7.61331 22.216 7.69452 22.2972C7.77573 22.3784 7.87285 22.442 7.97979 22.4839C8.08673 22.5258 8.20117 22.5451 8.31594 22.5407C8.4307 22.5362 8.54331 22.5081 8.6467 22.4581C8.75009 22.4081 8.84202 22.3372 8.91673 22.25L15.0001 16.175L21.0751 22.25C21.2345 22.3865 21.4395 22.4579 21.6493 22.4498C21.859 22.4417 22.058 22.3547 22.2064 22.2063C22.3548 22.0579 22.4417 21.8589 22.4498 21.6492C22.4579 21.4395 22.3866 21.2344 22.2501 21.075L16.1751 15Z"
+                                fill="white" fill-opacity="1" />
+                        </svg>
+                    </div>
+                </div>
+                <ul class="popup__nav_list">
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#steps" class="popup__nav_link">How It Works</a>
+                    </li>
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#preview" class="popup__nav_link">Plan Your Trip</a>
+                    </li>
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#destinations" class="popup__nav_link">Destinations</a>
+                    </li>
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#stories" class="popup__nav_link">Travel Stories</a>
+                    </li>
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#head" class="popup__nav_link">Account</a>
+                    </li>
+                    <li onclick="closePop()" class="popup__nav_item">
+                        <a href="#social-media" class="popup__nav_link">Social Media</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div onclick="closePop()" class="overlay" id="over"></div>
         <main class="main-container container">
             <section class="preview-container container">
                 <div class="start-planning">
@@ -135,8 +145,11 @@
                 <div class="country-scroll">
                     <div class="arrow-container arrow-container-left">
                         <a href="">
-                            <svg class="arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z" fill="#F2785C"/>
+                            <svg class="arrow" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
+                                    fill="#F2785C" />
                             </svg>
                         </a>
                     </div>
@@ -151,14 +164,18 @@
                     </article>
                     <div class="arrow-container arrow-container-right">
                         <a href="">
-                            <svg class="arrow" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z" fill="#F2785C"/>
-                            </svg>                                
+                            <svg class="arrow" width="30" height="30" viewBox="0 0 30 30" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.92435 3.0675C9.57284 3.41911 9.37537 3.89594 9.37537 4.39312C9.37537 4.89031 9.57284 5.36713 9.92435 5.71875L19.2056 15L9.92435 24.2812C9.5828 24.6349 9.39381 25.1085 9.39808 25.6001C9.40235 26.0917 9.59955 26.562 9.94719 26.9097C10.2948 27.2573 10.7651 27.4545 11.2567 27.4588C11.7483 27.463 12.222 27.274 12.5756 26.9325L23.1825 16.3256C23.534 15.974 23.7314 15.4972 23.7314 15C23.7314 14.5028 23.534 14.026 23.1825 13.6744L12.5756 3.0675C12.224 2.71599 11.7472 2.51852 11.25 2.51852C10.7528 2.51852 10.276 2.71599 9.92435 3.0675Z"
+                                    fill="#F2785C" />
+                            </svg>
                         </a>
                     </div>
                 </div>
                 <div class="dot">
-                    <svg class="three-dots" width="80" height="20" viewBox="0 0 80 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="three-dots" width="80" height="20" viewBox="0 0 80 20" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
                         <circle cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
                         <circle cx="40" cy="10" r="10" fill="#F2785C" />
                         <circle cx="70" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
@@ -179,11 +196,12 @@
                 <div class="stories-wrapper">
                     <h2 class="section-header stories-header">TRAVEL STORIES</h2>
                     <div class="stories-story">
-                        <div class="story-img-container img-boat"><img class="place-img" src="./assets/img/boat-rock.jpg"
-                                alt="boat among the rocks"></div>
+                        <div class="story-img-container img-boat"><img class="place-img"
+                                src="./assets/img/boat-rock.jpg" alt="boat among the rocks"></div>
                         <div class="story-wrapper">
                             <h3 class="stories-story-header">10 Photos of Attractive Thailand</h3>
-                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit,
                                 sed do
                                 eiusmod
                                 tempor
@@ -195,18 +213,25 @@
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
                                 laborum.Lorem
                                 ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
-                                <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
+                            </p>
+                            <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit...
+                            </p>
                             <span><a href="" class="stories-read-more">Read More</a></span>
                         </div>
                     </div>
                     <div class="stories-story">
-                        <div class="story-img-container img-road"><img class="place-img" src="./assets/img/road-desert.jpg"
-                                alt="road through canyonlands"></div>
+                        <div class="story-img-container img-road"><img class="place-img"
+                                src="./assets/img/road-desert.jpg" alt="road through canyonlands"></div>
                         <div class="story-wrapper">
                             <h3 class="stories-story-header">Canyonlands National Park, Utah</h3>
-                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit,
                                 sed do
                                 eiusmod
                                 tempor
@@ -218,18 +243,25 @@
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
                                 laborum.Lorem
                                 ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
-                                <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
+                            </p>
+                            <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit...
+                            </p>
                             <span><a href="" class="stories-read-more">Read More</a></span>
                         </div>
                     </div>
                     <div class="stories-story">
-                        <div class="story-img-container img-mountain"><img class="place-img" src="./assets/img/mountain.jpg"
-                                alt="winter forest and mountain"></div>
+                        <div class="story-img-container img-mountain"><img class="place-img"
+                                src="./assets/img/mountain.jpg" alt="winter forest and mountain"></div>
                         <div class="story-wrapper">
                             <h3 class="stories-story-header">I left my heart in the Mountains!</h3>
-                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit,
                                 sed do
                                 eiusmod
                                 tempor
@@ -241,33 +273,46 @@
                                 cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
                                 laborum.Lorem
                                 ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
-                                <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
-                                </p>
+                            </p>
+                            <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit...
+                            </p>
                             <span><a href="" class="stories-read-more">Read More</a></span>
                         </div>
                     </div>
                     <div class="stories-story stories-story-last">
-                        <div class="story-img-container img-minivan"><img class="place-img" src="./assets/img/minivan.jpg"
-                                alt="minivan and canyon"></div>
+                        <div class="story-img-container img-minivan"><img class="place-img"
+                                src="./assets/img/minivan.jpg" alt="minivan and canyon"></div>
                         <div class="story-wrapper">
                             <h3 class="stories-story-header">The Longest journey in my life!</h3>
-                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                            sed do
-                            eiusmod
-                            tempor
-                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                            exercitation
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                            reprehenderit
-                            in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-                            laborum.Lorem
-                            ipsum dolor sit amet, consectetur adipiscing elit...
+                            <p lang="zxx" class="story-text short">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit,
+                                sed do
+                                eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                exercitation
+                                ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit
+                                in voluptate velit esse cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a
+                                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                                laborum.Lorem
+                                ipsum dolor sit amet, consectetur adipiscing elit...
                             </p>
-                            <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+                            <p lang="zxx" class="story-text wide">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                                eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                                qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit...
                             </p>
-                            <span><a href=""class="stories-read-more">Read More</a></span>
+                            <span><a href="" class="stories-read-more">Read More</a></span>
                         </div>
                     </div>
                     <div class="btn-find-wrapper">
