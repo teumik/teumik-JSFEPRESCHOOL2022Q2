@@ -1145,8 +1145,8 @@ form {
         transition: all 0.3s ease;
     }
 
-
-
-
-
+    .close_svg:hover {
+        transform: rotate(90deg);
+        transition: all 0.3s ease;
+    }
 }
