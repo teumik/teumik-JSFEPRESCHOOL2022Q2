@@ -15,6 +15,42 @@ let closePop = () => {
     elementOne.classList.remove("active");
     let elementTwo = document.getElementById("over");
     elementTwo.classList.remove("active");
+    let elementThree = document.getElementById("log_pop");
+    elementThree.classList.add("unactive");
+    let elementFour = document.getElementById("reg_pop");
+    elementFour.classList.add("unactive");
     let body = document.querySelector("body");
     body.style.overflow = "auto"
+    let element5 = document.getElementById("log_pop");
+    element5.classList.remove("none");
 }
+
+function showLog() {
+    let log = document.getElementById("log_pop");
+    let reg = document.getElementById("reg_pop");
+    let over = document.getElementById("over");
+    let body = document.querySelector("body");
+    log.classList.remove("unactive");
+    over.classList.add("active");
+    body.style.overflow = "hidden"
+    reg.classList.add("none");
+    reg.classList.remove("unactive");
+}
+
+function clickReg() {
+    let elementOne = document.getElementById("log_pop");
+    elementOne.classList.add("none");
+    let elementTwo = document.getElementById("reg_pop");
+    elementTwo.classList.remove("none")
+    let element3 = document.getElementById("reg_pop");
+    element3.classList.remove("unactive")
+    
+}    
+
+function clickLog() {
+    let elementOne = document.getElementById("reg_pop");
+    elementOne.classList.add("none");
+    let elementTwo = document.getElementById("log_pop");
+    elementTwo.classList.remove("none")
+}    
+

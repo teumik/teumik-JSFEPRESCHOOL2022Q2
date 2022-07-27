@@ -13,13 +13,71 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
         rel="stylesheet">
     <script src="./index.js"></script>
     <title>Travel</title>
 </head>
 
 <body>
+    <!-- login_popup -->
+    <div class="login_popup log_reg_popup unactive" id="log_pop">
+        <h3 class="login__header">Log in to your account</h3>
+        <div class="log_reg_btn_wrapper">           
+            <button class="login__btn fb_btn soc_btn">
+                <svg width="23" height="24" viewBox="0 0 23 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23 12.0699C23 5.71857 17.8513 0.569853 11.5 0.569853C5.14872 0.569853 0 5.71857 0 12.0699C0 17.8098 4.20538 22.5674 9.70312 23.4301V15.3941H6.7832V12.0699H9.70312V9.53626C9.70312 6.65407 11.42 5.06204 14.0468 5.06204C15.305 5.06204 16.6211 5.28665 16.6211 5.28665V8.11673H15.171C13.7424 8.11673 13.2969 9.00319 13.2969 9.91264V12.0699H16.4863L15.9765 15.3941H13.2969V23.4301C18.7946 22.5674 23 17.8098 23 12.0699Z" fill="white"/>
+                </svg>    
+                Sign In with Facebook
+            </button>
+        </div>
+        <div class="log_reg_btn_wrapper">
+            <button class="login__btn gm_btn soc_btn">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="24" height="24" transform="translate(0.5)" fill="white"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M23.54 12.2614C23.54 11.4459 23.4668 10.6618 23.3309 9.90909H12.5V14.3575H18.6891C18.4225 15.795 17.6123 17.013 16.3943 17.8284V20.7139H20.1109C22.2855 18.7118 23.54 15.7636 23.54 12.2614Z" fill="#4285F4"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 23.4998C15.605 23.4998 18.2081 22.4701 20.1109 20.7137L16.3943 17.8282C15.3645 18.5182 14.0472 18.926 12.5 18.926C9.50474 18.926 6.96951 16.903 6.06519 14.1848H2.22314V17.1644C4.11542 20.9228 8.00451 23.4998 12.5 23.4998Z" fill="#34A853"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M6.06523 14.1851C5.83523 13.4951 5.70455 12.758 5.70455 12.0001C5.70455 11.2421 5.83523 10.5051 6.06523 9.81506V6.83552H2.22318C1.44432 8.38802 1 10.1444 1 12.0001C1 13.8557 1.44432 15.6121 2.22318 17.1646L6.06523 14.1851Z" fill="#FBBC05"/>
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12.5 5.07386C14.1884 5.07386 15.7043 5.65409 16.8961 6.79364L20.1945 3.49523C18.2029 1.63955 15.5997 0.5 12.5 0.5C8.00451 0.5 4.11542 3.07705 2.22314 6.83545L6.06519 9.815C6.96951 7.09682 9.50474 5.07386 12.5 5.07386Z" fill="#EA4335"/>
+                </svg>
+                Sign In with Google
+            </button>
+        </div>
+        <p class="login__line login__or">or</p>
+        <div class="form_container">
+            <form class="form_log_reg" action="">
+                <label class="form__label" for="email">E-mail</label>
+                <input class="form__input" type="text" placeholder="" name="email" required>
+
+                <label class="form__label" for="psw">Password</label>
+                <input class="form__input" type="password" placeholder="" name="psw" required>
+
+                <button class="form__btn" type="submit">Sign In</button>
+                <div class="link_wrapper">
+                    <a class="form__forgot form__link" href="">Forgot Your Password?</a>
+                </div>
+            </form>
+        </div>
+        <p class="login__line2"></p>
+        <p class="reg-or-log">Don’t have an account?<span onclick="clickReg()" class="reg_log_link"><a class="form__link link_reg">Register</a></span></p>
+    </div>
+    <!-- reg_popup -->
+    <div class="reg_popup log_reg_popup none" id="reg_pop">
+        <h3 class="login__header">Create account</h3>
+        <div class="form_container">
+            <form class="form_log_reg" action="">
+                <label class="form__label" for="email">E-mail</label>
+                <input class="form__input" type="text" placeholder="" name="email" required>
+
+                <label class="form__label" for="psw">Password</label>
+                <input class="form__input" type="password" placeholder="" name="psw" required>
+
+                <button class="form__btn" type="submit">Sign Up</button>
+            </form>
+        </div>
+        <p class="login__line2"></p>
+        <p class="reg-or-log">Already have an account?<span onclick="clickLog()" class="reg_log_link"><a class="form__link link_log">Log in</a></span></p>
+    </div>
     <div class="container">
         <header class="header-container container" id="head">
             <div class="logo">
@@ -39,7 +97,7 @@
                     <li class="nav-item"><a class="nav-link" href="#stories">Travel Stories</a></li>
                 </ul>
             </nav>
-            <button class="button-all btn-login red-hat-text" type="submit">Login</button>
+            <button onclick="showLog()" class="button-all btn-login red-hat-text" type="submit">Login</button>
             <div onclick="addClass()" class="burger-container">
                 <svg class="burger" width="35" height="32" viewBox="0 0 35 32" fill="none"
                     xmlns="http://www.w3.org/2000/svg">
@@ -55,6 +113,7 @@
                 </svg>
             </div>
         </header>
+        <!-- popup -->
         <div class="popup" id="pop">
             <nav class="popup__nav">
                 <div onclick="closePop()" class="popup__close close" id="x">
@@ -80,7 +139,7 @@
                     <li onclick="closePop()" class="popup__nav_item">
                         <a href="#stories" class="popup__nav_link">Travel Stories</a>
                     </li>
-                    <li onclick="closePop()" class="popup__nav_item">
+                    <li onclick="closePop(); showLog()" class="popup__nav_item">
                         <a href="#head" class="popup__nav_link">Account</a>
                     </li>
                     <li onclick="closePop()" class="popup__nav_item">
@@ -89,7 +148,9 @@
                 </ul>
             </nav>
         </div>
+        <!-- overlay -->
         <div onclick="closePop()" class="overlay" id="over"></div>
+
         <main class="main-container container">
             <section class="preview-container container">
                 <div class="start-planning">

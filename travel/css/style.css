@@ -73,6 +73,7 @@ html {
 }
 
 body {
+    position: relative;
     background-image: url("../assets/img/footer.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -609,6 +610,299 @@ form {
 .search:focus::placeholder {
     color: transparent;
 }
+
+.log_reg_popup {
+    position: absolute;
+    z-index: 999;
+    top: 50vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    padding: 0 45px;
+    
+    width: 560px;
+    height: 660px;
+
+    background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+}
+
+.login__header {
+    margin: 25px auto 30px;
+
+    text-align: center;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #0D606F;
+}
+
+.gm_btn,
+.fb_btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.login__btn {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px 0;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+
+    background: #1877F2;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border: none;
+    border-radius: 10px;
+}
+
+.gm_btn {
+    color: #0D606F;
+    background: #FFFFFF;
+}
+.login__or {
+    margin: 30px 0 10px;
+    position: relative;
+    text-align: center;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: rgba(13, 96, 111, 0.5);
+}
+
+.login__line::before {
+    content: "";
+    width: calc(50% - 19px);
+    position: absolute;
+    top: 11px;
+    right: 0;
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+.login__line::after {
+    content: "";
+    width: calc(50% - 19px);
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+.login__line2 {
+    margin-top: 25px;
+
+    border-top: 1px solid rgba(13, 96, 111, 0.5);
+}
+
+.form_log_reg {
+    display: block;
+}
+
+.form__label {
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #0D606F;
+}
+
+.form__input {
+    width: 100%;
+    padding: 17px 30px;
+    margin: 5px auto 21px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 0px 3px rgba(13, 96, 111, 0.08), inset 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #0D606F;
+}
+
+.form__btn {
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 14px 0;
+
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border: none;
+    border-radius: 10px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+
+    color: #FFFFFF;
+}
+
+.link_wrapper,
+.reg-or-log {
+    text-align: center;
+
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: rgba(13, 96, 111, 0.5);
+
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+.reg-or-log {
+    margin-top: 20px;
+}
+
+.form__link {
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #0D606F;
+    text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
+}
+
+.reg_log_link {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.form__link:hover {
+    color: rgba(242, 120, 92);
+}
+
+.form__link:active {
+    color: rgba(242, 120, 92, 0.3);
+    transition: all 0.2s;
+}
+
+.form__btn:hover {
+    box-shadow: 1px 6px 6px rgb(0 0 0 / 30%), 1px 3px 5px rgb(13 96 111 / 15%);
+    background-color: rgba(13, 96, 111, 0.9);
+    text-shadow: 1px 3px 5px rgb(4 31 35 / 80%);
+}
+
+.form__btn:active {
+    box-shadow: inset 0px 6px 6px rgb(0 0 0 / 50%), 0px 3px 5px rgb(13 96 111 / 30%);
+    background-color: rgba(242, 120, 92);
+    text-shadow: 1px 3px 5px rgb(4 31 35 / 80%)
+}
+
+.form__input:hover {
+    outline: 3px solid rgba(242, 120, 92, 0.5);
+}
+
+.form__input:focus {
+    outline: 3px solid rgba(242, 120, 92, 1);
+    transition: all 0.2s;
+}
+
+.soc_btn,
+.form__input,
+.form__btn,
+.form__link,
+.login__btn,
+.fb_btn,
+.gm_btn {
+    transition: all 0.2s;
+}
+
+.soc_btn:hover {
+    box-shadow: 1px 6px 6px rgb(0 0 0 / 30%), 1px 3px 5px rgb(13 96 111 / 15%);
+    text-shadow: 1px 3px 5px rgb(4 31 35 / 40%);
+}
+
+.soc_btn:active {
+    box-shadow: inset 0px 6px 6px rgb(0 0 0 / 50%), 0px 3px 5px rgb(13 96 111 / 30%);
+    text-shadow: 1px 3px 5px rgb(4 31 35 / 80%);
+    filter: brightness(0.97);
+}
+
+.reg_popup .login__line2 {
+    margin-top: 15px;
+}
+
+.reg_popup {
+    height: 436px;
+}
+
+.reg_popup.none {
+    display: none;
+}
+
+.reg_popup.unactive {
+    top: -450px;
+    transition: all 0.3s ease-in;
+}
+
+.login_popup {
+    transition: all 0.3s ease-in;
+}
+
+.login_popup.unactive {
+    top: -670px;
+    transition: all 0.3s ease-in;
+}
+
+.login_popup.none {
+    display: none;
+}
+
+.overlay {
+    display: block;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease-in;
+}
+
+.overlay.active {
+    opacity: 0.4;
+    pointer-events: all;
+}
+
 
 @media (max-width: 390px) {
     html {}
@@ -1148,5 +1442,15 @@ form {
     .close_svg:hover {
         transform: rotate(90deg);
         transition: all 0.3s ease;
+    }
+
+    .log_reg_popup {
+        width: 270px;
+        height: auto;
+    }
+
+    .reg_popup {
+        width: 270px;
+        height: auto;
     }
 }
