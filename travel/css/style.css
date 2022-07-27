@@ -868,16 +868,16 @@ form {
 
 .reg_popup.unactive {
     top: -450px;
-    transition: all 0.3s ease-in;
+    transition: top 0.3s ease-in;
 }
 
 .login_popup {
-    transition: all 0.3s ease-in;
+    transition: top 0.3s ease-in;
 }
 
 .login_popup.unactive {
     top: -670px;
-    transition: all 0.3s ease-in;
+    transition: top 0.3s ease-in;
 }
 
 .login_popup.none {
@@ -901,6 +901,15 @@ form {
 .overlay.active {
     opacity: 0.4;
     pointer-events: all;
+}
+
+a,
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: underline;
 }
 
 
@@ -1338,7 +1347,7 @@ form {
         display: block;
         width: 165px;
         position: fixed;
-        z-index: 999;
+        z-index: 990;
         top: 0;
         right: -170px;
         background: #F2785C;
