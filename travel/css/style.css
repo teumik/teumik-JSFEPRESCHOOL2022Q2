@@ -824,13 +824,16 @@ form {
 
 .soc_btn:hover {
   box-shadow: 1px 6px 6px rgb(0 0 0 / 30%), 1px 3px 5px rgb(13 96 111 / 15%);
-  text-shadow: 1px 3px 5px rgb(4 31 35 / 40%);
+  text-shadow: 1px 3px 5px rgb(4 31 35 / 30%);
+  transition: all 0.2s;
 }
 
 .soc_btn:active {
   box-shadow: inset 0px 6px 6px rgb(0 0 0 / 50%), 0px 3px 5px rgb(13 96 111 / 30%);
-  text-shadow: 1px 3px 5px rgb(4 31 35 / 80%);
+  text-shadow: 1px 3px 5px rgb(4 31 35 / 50%);
   filter: brightness(0.97);
+  transition: all 0.2s;
+
 }
 
 .reg_popup .login__line2 {

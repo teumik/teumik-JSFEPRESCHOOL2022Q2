@@ -55,14 +55,14 @@
     </div>
     <p class="login__line login__or">or</p>
     <div class="form_container">
-      <form class="form_log_reg" action="">
+      <form class="form_log_reg" action="" id="form_log">
         <label class="form__label" for="email">E-mail</label>
-        <input class="form__input" type="text" placeholder="" name="email" required>
+        <input class="form__input" type="text" name="email" required>
 
         <label class="form__label" for="psw">Password</label>
-        <input class="form__input" type="password" placeholder="" name="psw" required>
+        <input class="form__input" type="password" name="psw" required>
 
-        <button class="form__btn" type="submit">Sign In</button>
+        <button onclick="alertData()" class="form__btn" type="button">Sign In</button>
         <div class="link_wrapper">
           <a class="form__forgot form__link">Forgot Your Password?</a>
         </div>
@@ -76,14 +76,14 @@
   <div class="reg_popup log_reg_popup none" id="reg_pop">
     <h3 class="login__header">Create account</h3>
     <div class="form_container">
-      <form class="form_log_reg" action="">
+      <form class="form_log_reg" action="" id="form_reg">
         <label class="form__label" for="email">E-mail</label>
-        <input class="form__input" type="text" placeholder="" name="email" required>
+        <input class="form__input" type="text" name="email" required>
 
         <label class="form__label" for="psw">Password</label>
-        <input class="form__input" type="password" placeholder="" name="psw" required>
+        <input class="form__input" type="password" name="psw" required>
 
-        <button class="form__btn" type="submit">Sign Up</button>
+        <button onclick="alertData()" class="form__btn" type="button">Sign Up</button>
       </form>
     </div>
     <p class="login__line2"></p>
@@ -250,7 +250,7 @@
         <div class="dot">
           <svg class="three-dots" width="80" height="20" viewBox="0 0 80 20" fill="none"
             xmlns="http://www.w3.org/2000/svg">
-            <circle class="dot_item" cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
+            <circle onclick="currentSlide(1)" class="dot_item" cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
             <circle class="dot_item" cx="40" cy="10" r="10" fill="#F2785C" />
             <circle class="dot_item" cx="70" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
           </svg>
