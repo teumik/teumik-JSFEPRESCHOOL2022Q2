@@ -15,11 +15,11 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Magra:wght@400;700&family=Red+Hat+Text:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
     rel="stylesheet">
-  <script src="./index.js"></script>
   <title>Travel</title>
 </head>
 
 <body>
+
   <!-- login_popup -->
   <div class="login_popup log_reg_popup unactive" id="log_pop">
     <h3 class="login__header">Log in to your account</h3>
@@ -62,7 +62,7 @@
         <label class="form__label" for="psw">Password</label>
         <input class="form__input" type="password" name="psw" required>
 
-        <button onclick="alertData()" class="form__btn" type="button">Sign In</button>
+        <button onclick="alertData()" class="form__btn" type="submit">Sign In</button>
         <div class="link_wrapper">
           <a class="form__forgot form__link">Forgot Your Password?</a>
         </div>
@@ -83,7 +83,7 @@
         <label class="form__label" for="psw">Password</label>
         <input class="form__input" type="password" name="psw" required>
 
-        <button onclick="alertData()" class="form__btn" type="button">Sign Up</button>
+        <button onclick="alertData()" class="form__btn" type="submit">Sign Up</button>
       </form>
     </div>
     <p class="login__line2"></p>
@@ -250,9 +250,12 @@
         <div class="dot">
           <svg class="three-dots" width="80" height="20" viewBox="0 0 80 20" fill="none"
             xmlns="http://www.w3.org/2000/svg">
-            <circle onclick="currentSlide(1)" class="dot_item" cx="10" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
-            <circle class="dot_item" cx="40" cy="10" r="10" fill="#F2785C" />
-            <circle class="dot_item" cx="70" cy="10" r="10" fill="#F2785C" fill-opacity="0.5" />
+            <circle style="transition: fill-opacity 0.3s ease-in;" class="dot_item" cx="10" cy="10" r="10"
+              fill="#F2785C" fill-opacity="0.5" />
+            <circle style="transition: fill-opacity 0.3s ease-in;" class="dot_item active" cx="40" cy="10" r="10"
+              fill="#F2785C" />
+            <circle style="transition: fill-opacity 0.3s ease-in;" class="dot_item" cx="70" cy="10" r="10"
+              fill="#F2785C" fill-opacity="0.5" />
           </svg>
         </div>
         <div class="btn-find-wrapper">
@@ -419,7 +422,8 @@
         <div class="copyright footer-center footer-flex-item">All Rights Reserved © Travel Portal</div>
         <ul class="social-media-container footer-right footer-flex-item">
           <li class="social-media">
-            <a href="https://www.instagram.com/teumik" target="_blank" rel="noopener noreferrer" class="social-media-link instagram">
+            <a href="https://www.instagram.com/teumik" target="_blank" rel="noopener noreferrer"
+              class="social-media-link instagram">
               <svg class="link-hover" width="32" height="32" viewBox="0 0 32 32" fill=""
                 xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -429,7 +433,8 @@
             </a>
           </li>
           <li class="social-media">
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer" class="social-media-link youtube">
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"
+              class="social-media-link youtube">
               <svg class="link-hover" width="33" height="28" viewBox="0 0 33 28" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <path
@@ -441,7 +446,8 @@
             </a>
           </li>
           <li class="social-media">
-            <a href="https://twitter.com/teumik" target="_blank" rel="noopener noreferrer" class="social-media-link twitter">
+            <a href="https://twitter.com/teumik" target="_blank" rel="noopener noreferrer"
+              class="social-media-link twitter">
               <svg class="link-hover" width="34" height="34" viewBox="0 0 34 34" fill="none"
                 xmlns="http://www.w3.org/2000/svg">
                 <g clip-path="url(#clip0_72_17)">
@@ -461,6 +467,9 @@
       </div>
     </footer>
   </div>
+
+  <script src="./index.js"></script>
+
 </body>
 
 </html>
