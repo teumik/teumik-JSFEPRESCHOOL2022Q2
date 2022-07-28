@@ -832,8 +832,7 @@ form {
   box-shadow: inset 0px 6px 6px rgb(0 0 0 / 50%), 0px 3px 5px rgb(13 96 111 / 30%);
   text-shadow: 1px 3px 5px rgb(4 31 35 / 50%);
   filter: brightness(0.97);
-  transition: all 0.2s;
-
+  transition: all 0.2s ease-in;
 }
 
 .reg_popup .login__line2 {
@@ -894,10 +893,30 @@ a {
   text-decoration: underline;
 }
 
+.country-preview {
+  cursor: pointer;
+  transition: transform 0.3s ease-in;
+}
+
+.country-scroll.right .country-preview {
+  transform: translate(-860px);
+}
+
+.country-scroll.left .country-preview {
+  transform: translate(860px);
+}
+
+circle {
+  fill-opacity: 0.5;
+  transition: fill-opacity 1.3s ease-in;
+}
+
+circle.active {
+  fill-opacity: 1;
+  transition: fill-opacity 1.3s ease-in;
+}
 
 @media (max-width: 390px) {
-  html {}
-
   body {
     width: 390px;
     background-image: url(../assets/img/footer-mobile.jpg);
@@ -1101,6 +1120,7 @@ a {
 
   .arrow-container-left {
     position: absolute;
+    z-index: 998;
     top: 129px;
     left: 20px;
     transform: scale(-1, 1);
@@ -1109,6 +1129,7 @@ a {
 
   .arrow-container-right {
     position: absolute;
+    z-index: 998;
     top: 129px;
     right: 20px;
   }
@@ -1116,14 +1137,6 @@ a {
   .arrow:hover {
     filter: drop-shadow(3px 5px 2px rgb(0 0 0 / 0.7)) brightness(1.1);
     transition: all 0.2s ease;
-  }
-
-  .arrow-container-left:hover {
-    opacity: 1;
-  }
-
-  .arrow-container-left:hover~.arrow-container-right {
-    opacity: 0.5;
   }
 
   .country {
@@ -1136,13 +1149,18 @@ a {
   }
 
   .spain {
-    order: 1;
     background-image: url(../assets/img/spain-mobile.jpg);
     background-repeat: no-repeat;
   }
 
   .usa {
-    order: 2;
+    background-image: url(../assets/img/usa-mobile.jpg);
+    background-repeat: no-repeat;
+  }
+
+  .japan {
+    background-image: url(../assets/img/japan-mobile.jpg);
+    background-repeat: no-repeat;
   }
 
   .button-all svg {
@@ -1170,13 +1188,10 @@ a {
   }
 
   circle:nth-child(1) {
-    fill-opacity: 1;
     cx: 5;
   }
 
-  circle:nth-child(2) {
-    fill-opacity: 0.5;
-  }
+  circle:nth-child(2) {}
 
   circle:nth-child(3) {
     cx: 75;
@@ -1443,5 +1458,36 @@ a {
   .reg_popup {
     width: 270px;
     height: auto;
+  }
+
+  .country-preview {
+    cursor: pointer;
+  }
+
+  .country-scroll.right .country-preview {
+    transform: translate(-420px);
+  }
+
+  .country-scroll.left .country-preview {
+    transform: translate(420px);
+  }
+
+  .country-scroll.middle .country-preview {
+    transform: translate(0px);
+  }
+
+  .arrow-container {
+    opacity: 1;
+  }
+
+  .arrow-container-left,
+  .arrow-container-right {
+    transition: opacity 0.3s ease-in;
+  }
+
+  .arrow-container-left.active,
+  .arrow-container-right.active {
+    opacity: 0.5;
+    transition: opacity 0.3s ease-in;
   }
 }
