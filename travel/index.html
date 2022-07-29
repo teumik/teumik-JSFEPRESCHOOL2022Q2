@@ -69,27 +69,15 @@
       </form>
     </div>
     <p class="login__line2"></p>
-    <p class="reg-or-log">Don’t have an account?<span onclick="clickReg()" class="reg_log_link"><a
-          class="form__link link_reg">Register</a></span></p>
+    <p class="reg-or-log">
+      <span class="question">Don’t have an account?</span>
+      <span class="reg_log_link">
+        <a class="form__link link_reg">Register</a>
+      </span>
+    </p>
   </div>
-  <!-- reg_popup -->
-  <div class="reg_popup log_reg_popup none" id="reg_pop">
-    <h3 class="login__header">Create account</h3>
-    <div class="form_container">
-      <form class="form_log_reg" action="" id="form_reg">
-        <label class="form__label" for="email">E-mail</label>
-        <input class="form__input" type="text" name="email" required>
+  <!-- login_popup -->
 
-        <label class="form__label" for="psw">Password</label>
-        <input class="form__input" type="password" name="psw" required>
-
-        <button onclick="alertData()" class="form__btn" type="submit">Sign Up</button>
-      </form>
-    </div>
-    <p class="login__line2"></p>
-    <p class="reg-or-log">Already have an account?<span onclick="clickLog()" class="reg_log_link"><a
-          class="form__link link_log">Log in</a></span></p>
-  </div>
   <div class="container">
     <header class="header-container container" id="head">
       <div class="logo">

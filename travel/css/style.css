@@ -1,3 +1,7 @@
+.none_log {
+  display: none;
+}
+
 .overlay {
   display: none;
 }
@@ -618,7 +622,6 @@ form {
   transform: translate(-50%, -50%);
   padding: 0 45px;
   width: 560px;
-  height: 660px;
   background: linear-gradient(177.09deg, #FFFFFF 6.15%, #0D606F 202.69%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
@@ -737,7 +740,6 @@ form {
   width: 100%;
   margin: auto;
   margin-top: 5px;
-  margin-bottom: 10px;
   padding: 14px 0;
   background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -763,8 +765,13 @@ form {
   text-shadow: 0px 2px 3px rgba(255, 255, 255, 0.16);
 }
 
+.link_wrapper {
+  margin-top: 10px;
+}
+
 .reg-or-log {
   margin-top: 20px;
+  margin-bottom: 24px;
 }
 
 .form__link {
@@ -835,23 +842,6 @@ form {
   transition: all 0.2s ease-in;
 }
 
-.reg_popup .login__line2 {
-  margin-top: 15px;
-}
-
-.reg_popup {
-  height: 436px;
-}
-
-.reg_popup.none {
-  display: none;
-}
-
-.reg_popup.unactive {
-  top: -450px;
-  transition: top 0.3s ease-in;
-}
-
 .login_popup {
   transition: top 0.3s ease-in;
 }
@@ -859,10 +849,6 @@ form {
 .login_popup.unactive {
   top: -670px;
   transition: top 0.3s ease-in;
-}
-
-.login_popup.none {
-  display: none;
 }
 
 .overlay {
@@ -1451,11 +1437,6 @@ circle.active {
   }
 
   .log_reg_popup {
-    width: 270px;
-    height: auto;
-  }
-
-  .reg_popup {
     width: 270px;
     height: auto;
   }
