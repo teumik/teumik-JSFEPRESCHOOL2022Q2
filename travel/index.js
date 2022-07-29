@@ -16,51 +16,29 @@ let closePop = () => {
   let over = document.getElementById("over");
   let body = document.querySelector("body");
   let log = document.getElementById("log_pop");
-  let reg = document.getElementById("reg_pop");
   pop.classList.remove("active");
   over.classList.remove("active");
   body.style.overflow = "auto";
   log.classList.add("unactive");
   log.classList.remove("none");
-  reg.classList.add("unactive");
 }
 
 function showLog() {
   let over = document.getElementById("over");
   let body = document.querySelector("body");
   let log = document.getElementById("log_pop");
-  let reg = document.getElementById("reg_pop");
   over.classList.add("active");
   body.style.overflow = "hidden";
   log.classList.remove("unactive");
-  reg.classList.add("none");
-  reg.classList.remove("unactive");
-}
-
-function clickReg() {
-  let log = document.getElementById("log_pop");
-  let reg = document.getElementById("reg_pop");
-  log.classList.add("none");
-  reg.classList.remove("none");
-
-}
-
-function clickLog() {
-  let reg = document.getElementById("reg_pop");
-  let log = document.getElementById("log_pop");
-  reg.classList.add("none");
-  log.classList.remove("none");
 }
 
 function alertData() {
   let inputs = document.getElementsByClassName('form__input');
   let formLog = document.getElementById('form_log');
-  let formReg = document.getElementById('form_reg');
   let data = `E-mail: ${inputs[0].value}\nPassword: ${inputs[1].value}`;
 
   if (inputs[0].value && inputs[1].value) {
     formLog.reset();
-    formReg.reset();
     alert(data);
   }
 }
@@ -73,6 +51,39 @@ let imgThree = imgs[2];
 let dots = document.querySelectorAll('.dot_item');
 let arrLeft = document.querySelector('.arrow-container-left');
 let arrRight = document.querySelector('.arrow-container-right');
+
+let fb = document.querySelector('.fb_btn');
+let soc = document.querySelectorAll('.log_reg_btn_wrapper');
+let or = document.querySelector('.login__or');
+let header = document.querySelector('.login__header');
+let forgot = document.querySelector('.link_wrapper');
+let question = document.querySelector('.question');
+let formBtn = document.querySelector('.form__btn');
+let formLink = document.querySelector('.link_reg');
+let rol = document.querySelector('.reg_log_link');
+
+
+rol.addEventListener('click', function () {
+  if (formLink.innerHTML === 'Register') {
+    header.innerHTML = 'Create account';
+    formBtn.innerHTML = 'Sign Up';
+    question.innerHTML = 'Already have an account?';
+    formLink.innerHTML = 'Log in';
+    soc.forEach(item => item.classList.add('none_log'));
+    or.classList.add('none_log');
+    forgot.classList.add('none_log');
+  } else {
+    header.innerHTML = 'Log in to your account';
+    formBtn.innerHTML = 'Sign In';
+    question.innerHTML = 'Don’t have an account?';
+    formLink.innerHTML = 'Register';
+    soc.forEach(item => item.classList.remove('none_log'));
+    or.classList.remove('none_log');
+    forgot.classList.remove('none_log');
+  }
+});
+
+
 
 
 imgOne.addEventListener('click', function () {
