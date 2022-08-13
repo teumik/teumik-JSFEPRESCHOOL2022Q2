@@ -1,0 +1,822 @@
+{
+       "en": [
+              {
+                     "quote": "Life isn’t about getting and having, it’s about giving and being.",
+                     "author": "Kevin Kruse"
+              },
+              {
+                     "quote": "Whatever the mind of man can conceive and believe, it can achieve.",
+                     "author": "Napoleon Hill"
+              },
+              {
+                     "quote": "Strive not to be a success, but rather to be of value.",
+                     "author": "Albert Einstein"
+              },
+              {
+                     "quote": "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",
+                     "author": "Robert Frost"
+              },
+              {
+                     "quote": "I attribute my success to this: I never gave or took any excuse.",
+                     "author": "Florence Nightingale"
+              },
+              {
+                     "quote": "You miss 100% of the shots you don’t take.",
+                     "author": "Wayne Gretzky"
+              },
+              {
+                     "quote": "I’ve missed more than 9000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life. And that is why I succeed.",
+                     "author": "Michael Jordan"
+              },
+              {
+                     "quote": "The most difficult thing is the decision to act, the rest is merely tenacity.",
+                     "author": "Amelia Earhart"
+              },
+              {
+                     "quote": "Every strike brings me closer to the next home run.",
+                     "author": "Babe Ruth"
+              },
+              {
+                     "quote": "Definiteness of purpose is the starting point of all achievement.",
+                     "author": "W. Clement Stone"
+              },
+              {
+                     "quote": "We must balance conspicuous consumption with conscious capitalism.",
+                     "author": "Kevin Kruse"
+              },
+              {
+                     "quote": "Life is what happens to you while you’re busy making other plans.",
+                     "author": "John Lennon"
+              },
+              {
+                     "quote": "We become what we think about.",
+                     "author": "Earl Nightingale"
+              },
+              {
+                     "quote": "Twenty years from now you will be more disappointed by the things that you didn’t do than by the ones you did do, so throw off the bowlines, sail away from safe harbor, catch the trade winds in your sails.  Explore, Dream, Discover.",
+                     "author": "Mark Twain"
+              },
+              {
+                     "quote": "Life is 10% what happens to me and 90% of how I react to it.",
+                     "author": "Charles Swindoll"
+              },
+              {
+                     "quote": "The most common way people give up their power is by thinking they don’t have any.",
+                     "author": "Alice Walker"
+              },
+              {
+                     "quote": "The mind is everything. What you think you become.",
+                     "author": "Buddha"
+              },
+              {
+                     "quote": "The best time to plant a tree was 20 years ago. The second best time is now.",
+                     "author": "Chinese Proverb"
+              },
+              {
+                     "quote": "An unexamined life is not worth living.",
+                     "author": "Socrates"
+              },
+              {
+                     "quote": "Eighty percent of success is showing up.",
+                     "author": "Woody Allen"
+              },
+              {
+                     "quote": "Your time is limited, so don’t waste it living someone else’s life.",
+                     "author": "Steve Jobs"
+              },
+              {
+                     "quote": "Winning isn’t everything, but wanting to win is.",
+                     "author": "Vince Lombardi"
+              },
+              {
+                     "quote": "I am not a product of my circumstances. I am a product of my decisions.",
+                     "author": "Stephen Covey"
+              },
+              {
+                     "quote": "Every child is an artist.  The problem is how to remain an artist once he grows up.",
+                     "author": "Pablo Picasso"
+              },
+              {
+                     "quote": "You can never cross the ocean until you have the courage to lose sight of the shore.",
+                     "author": "Christopher Columbus"
+              },
+              {
+                     "quote": "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.",
+                     "author": "Maya Angelou"
+              },
+              {
+                     "quote": "Either you run the day, or the day runs you.",
+                     "author": "Jim Rohn"
+              },
+              {
+                     "quote": "Whether you think you can or you think you can’t, you’re right.",
+                     "author": "Henry Ford"
+              },
+              {
+                     "quote": "The two most important days in your life are the day you are born and the day you find out why.",
+                     "author": "Mark Twain"
+              },
+              {
+                     "quote": "Whatever you can do, or dream you can, begin it.  Boldness has genius, power and magic in it.",
+                     "author": "Johann Wolfgang von Goethe"
+              },
+              {
+                     "quote": "The best revenge is massive success.",
+                     "author": "Frank Sinatra"
+              },
+              {
+                     "quote": "People often say that motivation doesn’t last. Well, neither does bathing.  That’s why we recommend it daily.",
+                     "author": "Zig Ziglar"
+              },
+              {
+                     "quote": "Life shrinks or expands in proportion to one’s courage.",
+                     "author": "Anais Nin"
+              },
+              {
+                     "quote": "If you hear a voice within you say “you cannot paint,” then by all means paint and that voice will be silenced.",
+                     "author": "Vincent Van Gogh"
+              },
+              {
+                     "quote": "There is only one way to avoid criticism: do nothing, say nothing, and be nothing.",
+                     "author": "Aristotle"
+              },
+              {
+                     "quote": "Ask and it will be given to you; search, and you will find; knock and the door will be opened for you.",
+                     "author": "Jesus"
+              },
+              {
+                     "quote": "The only person you are destined to become is the person you decide to be.",
+                     "author": "Ralph Waldo Emerson"
+              },
+              {
+                     "quote": "Go confidently in the direction of your dreams.  Live the life you have imagined.",
+                     "author": "Henry David Thoreau"
+              },
+              {
+                     "quote": "When I stand before God at the end of my life, I would hope that I would not have a single bit of talent left and could say, I used everything you gave me.",
+                     "author": "Erma Bombeck"
+              },
+              {
+                     "quote": "Few things can help an individual more than to place responsibility on him, and to let him know that you trust him.",
+                     "author": "Booker T. Washington"
+              },
+              {
+                     "quote": "Certain things catch your eye, but pursue only those that capture the heart.",
+                     "author": " Ancient Indian Proverb"
+              },
+              {
+                     "quote": "Believe you can and you’re halfway there.",
+                     "author": "Theodore Roosevelt"
+              },
+              {
+                     "quote": "Everything you’ve ever wanted is on the other side of fear.",
+                     "author": "George Addair"
+              },
+              {
+                     "quote": "We can easily forgive a child who is afraid of the dark; the real tragedy of life is when men are afraid of the light.",
+                     "author": "Plato"
+              },
+              {
+                     "quote": "Teach thy tongue to say, “I do not know,” and thous shalt progress.",
+                     "author": "Maimonides"
+              },
+              {
+                     "quote": "Start where you are. Use what you have.  Do what you can.",
+                     "author": "Arthur Ashe"
+              },
+              {
+                     "quote": "When I was 5 years old, my mother always told me that happiness was the key to life.  When I went to school, they asked me what I wanted to be when I grew up.  I wrote down ‘happy’.  They told me I didn’t understand the assignment, and I told them they didn’t understand life.",
+                     "author": "John Lennon"
+              },
+              {
+                     "quote": "Fall seven times and stand up eight.",
+                     "author": "Japanese Proverb"
+              },
+              {
+                     "quote": "When one door of happiness closes, another opens, but often we look so long at the closed door that we do not see the one that has been opened for us.",
+                     "author": "Helen Keller"
+              },
+              {
+                     "quote": "Everything has beauty, but not everyone can see.",
+                     "author": "Confucius"
+              },
+              {
+                     "quote": "How wonderful it is that nobody need wait a single moment before starting to improve the world.",
+                     "author": "Anne Frank"
+              },
+              {
+                     "quote": "When I let go of what I am, I become what I might be.",
+                     "author": "Lao Tzu"
+              },
+              {
+                     "quote": "Life is not measured by the number of breaths we take, but by the moments that take our breath away.",
+                     "author": "Maya Angelou"
+              },
+              {
+                     "quote": "Happiness is not something readymade.  It comes from your own actions.",
+                     "author": "Dalai Lama"
+              },
+              {
+                     "quote": "If you’re offered a seat on a rocket ship, don’t ask what seat! Just get on.",
+                     "author": "Sheryl Sandberg"
+              },
+              {
+                     "quote": "First, have a definite, clear practical ideal; a goal, an objective. Second, have the necessary means to achieve your ends; wisdom, money, materials, and methods. Third, adjust all your means to that end.",
+                     "author": "Aristotle"
+              },
+              {
+                     "quote": "If the wind will not serve, take to the oars.",
+                     "author": "Latin Proverb"
+              },
+              {
+                     "quote": "You can’t fall if you don’t climb.  But there’s no joy in living your whole life on the ground.",
+                     "author": "Unknown"
+              },
+              {
+                     "quote": "We must believe that we are gifted for something, and that this thing, at whatever cost, must be attained.",
+                     "author": "Marie Curie"
+              },
+              {
+                     "quote": "Too many of us are not living our dreams because we are living our fears.",
+                     "author": "Les Brown"
+              },
+              {
+                     "quote": "Challenges are what make life interesting and overcoming them is what makes life meaningful.",
+                     "author": "Joshua J. Marine"
+              },
+              {
+                     "quote": "If you want to lift yourself up, lift up someone else.",
+                     "author": "Booker T. Washington"
+              },
+              {
+                     "quote": "I have been impressed with the urgency of doing. Knowing is not enough; we must apply. Being willing is not enough; we must do.",
+                     "author": "Leonardo da Vinci"
+              },
+              {
+                     "quote": "Limitations live only in our minds.  But if we use our imaginations, our possibilities become limitless.",
+                     "author": "Jamie Paolinetti"
+              },
+              {
+                     "quote": "You take your life in your own hands, and what happens? A terrible thing, no one to blame.",
+                     "author": "Erica Jong"
+              },
+              {
+                     "quote": "What’s money? A man is a success if he gets up in the morning and goes to bed at night and in between does what he wants to do.",
+                     "author": "Bob Dylan"
+              },
+              {
+                     "quote": "I didn’t fail the test. I just found 100 ways to do it wrong.",
+                     "author": "Benjamin Franklin"
+              },
+              {
+                     "quote": "In order to succeed, your desire for success should be greater than your fear of failure.",
+                     "author": "Bill Cosby"
+              },
+              {
+                     "quote": "A person who never made a mistake never tried anything new.",
+                     "author": " Albert Einstein"
+              },
+              {
+                     "quote": "The person who says it cannot be done should not interrupt the person who is doing it.",
+                     "author": "Chinese Proverb"
+              },
+              {
+                     "quote": "There are no traffic jams along the extra mile.",
+                     "author": "Roger Staubach"
+              },
+              {
+                     "quote": "It is never too late to be what you might have been.",
+                     "author": "George Eliot"
+              },
+              {
+                     "quote": "You become what you believe.",
+                     "author": "Oprah Winfrey"
+              },
+              {
+                     "quote": "I would rather die of passion than of boredom.",
+                     "author": "Vincent van Gogh"
+              },
+              {
+                     "quote": "A truly rich man is one whose children run into his arms when his hands are empty.",
+                     "author": "Unknown"
+              },
+              {
+                     "quote": "It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.",
+                     "author": "Ann Landers"
+              },
+              {
+                     "quote": "If you want your children to turn out well, spend twice as much time with them, and half as much money.",
+                     "author": "Abigail Van Buren"
+              },
+              {
+                     "quote": "Build your own dreams, or someone else will hire you to build theirs.",
+                     "author": "Farrah Gray"
+              },
+              {
+                     "quote": "The battles that count aren’t the ones for gold medals. The struggles within yourself–the invisible battles inside all of us–that’s where it’s at.",
+                     "author": "Jesse Owens"
+              },
+              {
+                     "quote": "Education costs money.  But then so does ignorance.",
+                     "author": "Sir Claus Moser"
+              },
+              {
+                     "quote": "I have learned over the years that when one’s mind is made up, this diminishes fear.",
+                     "author": "Rosa Parks"
+              },
+              {
+                     "quote": "It does not matter how slowly you go as long as you do not stop.",
+                     "author": "Confucius"
+              },
+              {
+                     "quote": "If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.",
+                     "author": "Oprah Winfrey"
+              },
+              {
+                     "quote": "Remember that not getting what you want is sometimes a wonderful stroke of luck.",
+                     "author": "Dalai Lama"
+              },
+              {
+                     "quote": "You can’t use up creativity.  The more you use, the more you have.",
+                     "author": "Maya Angelou"
+              },
+              {
+                     "quote": "Dream big and dare to fail.",
+                     "author": "Norman Vaughan"
+              },
+              {
+                     "quote": "Our lives begin to end the day we become silent about things that matter.",
+                     "author": "Martin Luther King Jr."
+              },
+              {
+                     "quote": "Do what you can, where you are, with what you have.",
+                     "author": "Teddy Roosevelt"
+              },
+              {
+                     "quote": "If you do what you’ve always done, you’ll get what you’ve always gotten.",
+                     "author": "Tony Robbins"
+              },
+              {
+                     "quote": "Dreaming, after all, is a form of planning.",
+                     "author": "Gloria Steinem"
+              },
+              {
+                     "quote": "It’s your place in the world; it’s your life. Go on and do all you can with it, and make it the life you want to live.",
+                     "author": "Mae Jemison"
+              },
+              {
+                     "quote": "You may be disappointed if you fail, but you are doomed if you don’t try.",
+                     "author": "Beverly Sills"
+              },
+              {
+                     "quote": "Remember no one can make you feel inferior without your consent.",
+                     "author": "Eleanor Roosevelt"
+              },
+              {
+                     "quote": "Life is what we make it, always has been, always will be.",
+                     "author": "Grandma Moses"
+              },
+              {
+                     "quote": "The question isn’t who is going to let me; it’s who is going to stop me.",
+                     "author": "Ayn Rand"
+              },
+              {
+                     "quote": "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
+                     "author": "Henry Ford"
+              },
+              {
+                     "quote": "It’s not the years in your life that count. It’s the life in your years.",
+                     "author": "Abraham Lincoln"
+              },
+              {
+                     "quote": "Change your thoughts and you change your world.",
+                     "author": "Norman Vincent Peale"
+              },
+              {
+                     "quote": "Either write something worth reading or do something worth writing.",
+                     "author": "Benjamin Franklin"
+              },
+              {
+                     "quote": "Nothing is impossible, the word itself says, “I’m possible!”",
+                     "author": "–Audrey Hepburn"
+              },
+              {
+                     "quote": "The only way to do great work is to love what you do.",
+                     "author": "Steve Jobs"
+              },
+              {
+                     "quote": "If you can dream it, you can achieve it.",
+                     "author": "Zig Ziglar"
+              }
+       ],
+       "ru": [
+              {
+                     "quote": "Павел Федотов всё поверял живописью: в помощь или во вред ей? После шумного успеха картин богатая девица навязалась в жёны. «Меня не недостанет на две задачи, на две любви – к женщине и искусству. Занятия несовместные!..»",
+                     "author": "Павел Федотов"
+              },
+              {
+                     "quote": "…она домогалась меня в слезах, но я презрел ею. Захоти я принести в жертву свои жизненные силы, ничего не осталось бы для высшего, благородного.",
+                     "author": "Людвиг Бетховен"
+              },
+              {
+                     "quote": "Нет горшей муки, чем душевная борьба между долгом и любовью. Если я скажу тебе, что выбираю долг, ты всё поймёшь.",
+                     "author": "Ван Гог"
+              },
+              {
+                     "quote": "Жизнь коротка, на искусство и любовь её не хватит. У меня не было времени на такую чепуху.",
+                     "author": "Поль Гоген"
+              },
+              {
+                     "quote": "Боккаччо в биографии Данте горько упрекает поэта в женитьбе. Мудрую и вечно юную философию сменил на сварливую, подверженную старению женщину. Петрарка в «Письме к потомкам» бахвалится, что после сорока лет избегал женщин, будучи в избытке сил и страсти.",
+                     "author": ""
+              },
+              {
+                     "quote": "Ласки женщины изгоняют Музу и ослабляют яростную, неукротимую волю к труду. Я точно высчитал, сколько мы теряем за ночь любви. Нет такой женщины, которая стоит того.",
+                     "author": "Оноре Бальзак"
+              },
+              {
+                     "quote": "Не позволяй подниматься палице Геракла каждую ночь. Помни: что отдашь ночью женщине, уже не отдашь утром мрамору.",
+                     "author": "Микеланджело"
+              },
+              {
+                     "quote": "Женщины вдохновляют мужчин на великие дела, но мешают их совершать. Муза, сколь несговорчива, причиняет меньше горечи, чем женщина. Я не могу сочетать одну с другой, мой выбор сделан давно.",
+                     "author": "Гюстав Флобер"
+              },
+              {
+                     "quote": "Писатель не должен иметь половых связей, слишком большая потеря времени. Можно позволять переписку, хорошо изощряет слог. На мой вкус, ухаживания на бумаге приятнее и могут длиться без конца.",
+                     "author": "Бернард Шоу"
+              },
+              {
+                     "quote": "Сердечная привязанность мешает размышлениям. По мере обогащения чувствами человек беднеет мыслями.",
+                     "author": "Франсуа Шатобриан"
+              },
+              {
+                     "quote": "Чем сильней овладевало мною это сладострастие, тем менее я был способен к занятиям философией.",
+                     "author": "Пьер Абеляр"
+              },
+              {
+                     "quote": "Женщина – кладбище мужских амбиций. На брачном ложе гибнет не меньше надежд, чем в могиле.",
+                     "author": "Оноре Бальзак"
+              },
+              {
+                     "quote": "Семья, остерегайтесь семьи!.. Брак всегда плох, даже самый удачный; он холостит душу.",
+                     "author": "Александр Пушкин"
+              },
+              {
+                     "quote": "Брак или всякая постоянная связь с женщиной для выдающегося художника смерть.",
+                     "author": "Андре Моруа"
+              },
+              {
+                     "quote": "Мысли и женщины вместе не приходят. Раньше чаще приходили женщины, теперь – мысли.",
+                     "author": "Михаил Жванецкий"
+              },
+              {
+                     "quote": "За одну сильную мысль я готов пожертвовать любимой бабой. Мыслей гораздо меньше, чем баб.",
+                     "author": "Бертольд Брехт"
+              },
+              {
+                     "quote": "Женщина – это основное препятствие мужчины в его карьере, с ней можно проспать всё.",
+                     "author": "Джон Гувер"
+              },
+              {
+                     "quote": "Женщина что оконная занавеска, узор миленький, а света не видать. Слишком много остаётся за кругом, очерченным женскими объятиями.",
+                     "author": "Эрве Базен"
+              },
+              {
+                     "quote": "Холостяком остаться – султаном стать.",
+                     "author": "Азербайджанское изречение"
+              },
+              {
+                     "quote": "Человек свободный и неглупый может сравняться с самыми именитыми людьми, занять более высокое положение, чем было предназначено по праву рождения. Куда труднее сделать это женатому, брак словно вводит всех в назначенные им рамки.",
+                     "author": "Жан Лабрюйер"
+              },
+              {
+                     "quote": "Прискорбно, если даровитый муж посвятит себя только женщине. Брачная жизнь сулит философам тягости в их занятиях. Теофраст убедительно доказал, что мудрому человеку жениться не следует. Цицерон после развода с Теренцией ответил решительным отказом на уговоры Гирция жениться на его сестре. «Я не в состоянии равно заботиться о жене и философии». Женившись, Сократ прежде всего сам поплатился за это унижение.",
+                     "author": "Пьер Абеляр"
+              },
+              {
+                     "quote": "...семейному человеку как-то неприлично много думать.",
+                     "author": "Александр Герцен"
+              },
+              {
+                     "quote": "Любовь всегда означает слишком узкий взгляд на вещи. Среди великих людей, древних и современных, нет ни одного, который бы увлёкся любовью до безумия. Великие умы и великие дела не допускают развития этой страсти, свойственной слабым.",
+                     "author": "Френсис Бэкон"
+              },
+              {
+                     "quote": "…величие несоблазнимого духа. Мудрый человек понимает, что проще воспретить себе увлечение, чем потом с ним бороться. Повиноваться страсти не дело разумных.",
+                     "author": "Франсуа Ларошфуко"
+              },
+              {
+                     "quote": "Легче подавить в себе первое желание, чем удовлетворить все последующие. Я спас себя от любви бегством в искусство.",
+                     "author": "Франц Грильпарцер"
+              },
+              {
+                     "quote": "Какое мне дело до любви, если я знаю счастье вдвоём со своей тетрадкой, среди рифм и звуков? Валерий Брюсов..",
+                     "author": ""
+              },
+              {
+                     "quote": "Мудрец не должен быть влюблён. Ни жениться, ни заводить детей мудрец не будет.",
+                     "author": "Эпикур"
+              },
+              {
+                     "quote": "Не подобает от любви страдать тому, кто миром должен обладать.",
+                     "author": "Фирдоуси"
+              },
+              {
+                     "quote": "Нашему брату жениться не след.",
+                     "author": "Александр Островский"
+              },
+              {
+                     "quote": "Мне кажется, что я совершенно не способен к проявлениям бурной страсти. В любви мне видится что-то смешное. Я твёрдо решил раз и навсегда отказаться от неё.",
+                     "author": "Франсуа Вольтер"
+              },
+              {
+                     "quote": "Думать ли, заниматься, но не размазывать сантиментов. Сэкономив на бездельных нежностях, не даёшь застаиваться делу.",
+                     "author": "Александр Солженицын"
+              },
+              {
+                     "quote": "Любовь – большая помеха в жизни, пополняющая тюрьмы и дома умалишённых. Хроника любовных страстей отражена в протоколах полиции.",
+                     "author": "Артур Шопенгауэр"
+              },
+              {
+                     "quote": "Всякая любовь, равно счастливая и несчастная, настоящее бедствие, когда ей отдаёшься весь.",
+                     "author": "Иван Тургенев"
+              },
+              {
+                     "quote": "Влюблённый человек всё равно что пленник, и лишь одиночество дарует свободу.",
+                     "author": "Алкивиад"
+              },
+              {
+                     "quote": "Артист должен знать всё о любви, и научиться жить без неё. Я – монахиня искусства. Личная жизнь – театр, театр, театр.",
+                     "author": "Анна Павлова"
+              },
+              {
+                     "quote": "Брак – это нравственная смерть гордой души, всякой независимости. Брачная жизнь развратит, отнимет энергию, мужество в служении делу.",
+                     "author": "Фёдор Достоевский"
+              },
+              {
+                     "quote": "Кто мечтает о карьере, не должен жениться. Не хватало мне только жены, своей болтовнёй отвлекать от работы.",
+                     "author": "Адольф Гитлер"
+              },
+              {
+                     "quote": "Жена и дети, друг, поверь – большое зло: от них всё скверное у нас произошло.",
+                     "author": "Александр Пушкин"
+              },
+              {
+                     "quote": "Брак и любовь личность скорее разрушают, это испытание. Так думали и Гёте, и Толстой; а ранний брак вообще катастрофа, удар на всю жизнь.",
+                     "author": "Марина Цветаева"
+              },
+              {
+                     "quote": "…подумайте сами, женись я тогда столь рано, разве был бы я тем, кем есть теперь? Рафаэль Санти..",
+                     "author": ""
+              },
+              {
+                     "quote": "Главный вред брака в том, что он вытравливает из человека эгоизм. А люди неэгоистичные бесцветны, они утрачивают свою индивидуальность.",
+                     "author": "Оскар Уайльд"
+              },
+              {
+                     "quote": "Влюблённый мужчина представляет собой жалкое зрелище.",
+                     "author": "Агата Кристи"
+              },
+              {
+                     "quote": "Бунин всегда утверждал, что для Чехова брак был смертельной опасностью, «хуже Сахалина».",
+                     "author": "Вера Муромцева-Бунина"
+              },
+              {
+                     "quote": "Безусловно, я видел больше мужчин, которых сгубило желание иметь жену и детей и содержать их в комфорте, чем мужчин, которых сгубило пьянство и шлюхи.",
+                     "author": "Уильям Йейтс"
+              },
+              {
+                     "quote": "Брак – погибель. Шёл человек налегке до времени один, потом взял и связал свою ногу с ногой бабы. Два человека в браке сходятся только затем, чтобы мешать друг другу, и на весь век остаются чужими. Говорят: муж и жена – параллельные линии. Вздор! Как только пересеклись, так и пошли в разные стороны.",
+                     "author": "Лев Толстой"
+              },
+              {
+                     "quote": "…тебе не нужна жена, тебе не нужна семья! Наталья Решетовская..",
+                     "author": ""
+              },
+              {
+                     "quote": "Да, мне не нужна жена! Мне не нужна семья! Мне надо писать роман! Семья?.. Она ведь необходима только ребёнку.",
+                     "author": "Александр Солженицын"
+              },
+              {
+                     "quote": "Кто не хочет утруждать себя воспитанием и образованием детей, тот не должен иметь их.",
+                     "author": "Платон"
+              },
+              {
+                     "quote": "Те, чей вполне сосредоточенный ум постоянно направлен на тело, не следуют за тем, что не должно быть сделано, упорно делая то, что должно быть сделано. У таких мудрых и внимательных желания исчезают.",
+                     "author": "Будда"
+              },
+              {
+                     "quote": "Дети и книги делаются из одного материала, либо детей рожать, либо книги писать.",
+                     "author": "Братья Стругацкие"
+              },
+              {
+                     "quote": "Пушкин, Лев Толстой и многие недаром находили связь между воздержанием и тем, что выходит из-под пера писателя. Эти силы как бы перетекают на бумагу. Материя, из которой творятся жизнь и искусство, одинакова – животворящая.",
+                     "author": "Андрей Яхонтов"
+              },
+              {
+                     "quote": "Когда мать Мопассана спросили о его внебрачных детях, она гневно воскликнула, указав рукой на книги сына: «Не знаю, кроме этих!..",
+                     "author": ""
+              },
+              {
+                     "quote": "Настраивать свой ум выше своих влечений – в этом смысл воздержания.",
+                     "author": "Бенджамин Джонсон"
+              },
+              {
+                     "quote": "Очень бы желал заявить, что наслаждения любви были мне чужды. Не буду врать, но в глубине души я всегда относился с ненавистью к подобному унижению. По достижении же сорока лет старался избавиться даже от воспоминаний подобного рода, хотя и был полон силы и темперамента.",
+                     "author": "Франческо Петрарка"
+              },
+              {
+                     "quote": "Я нахожу унизительным, что какая-нибудь шлюха может мнить, что мне необходимо вскочить на неё.",
+                     "author": "Теофиль Готье"
+              },
+              {
+                     "quote": "Что – прелесть её ручек? Что – жар её перин? Давай, брат, отрешимся. Давай, брат, воспарим. Каррель считал, что любовь возбуждает ум, если остаётся неудовлетворённой.",
+                     "author": ""
+              },
+              {
+                     "quote": "Для истинных художников (которые суть священнослужители) воздержание естественно. Будучи целомудренны, они не рискуют ничем. Я не верю, чтобы Дон Жуаны могли быть одновременно и Байронами. Дон Жуан не создавал поэм, а Байрон, говорят, был не силён в любви.",
+                     "author": "Гюстав Флобер"
+              },
+              {
+                     "quote": "Некоторые женщины Маяковского утверждали, что непобедимый «горлан-главарь» был плохим любовником. Гениальные люди равнодушны к обязанностям семьянина и члена общества. Леонардо да Винчи сознательно ограждал себя от всего, что мешало умственным занятиям.",
+                     "author": ""
+              },
+              {
+                     "quote": "Моя жена – художества.",
+                     "author": "Карл Брюллов"
+              },
+              {
+                     "quote": "Настоящий писатель всегда ставил работу выше любви. Сомневаетесь, прочтите письма Бальзака.",
+                     "author": "Акутагава Рюноскэ"
+              },
+              {
+                     "quote": "Живопись ревнива и не терпит соперниц; она заменяет мне жену, с нею много домашних хлопот. Моими детьми будут мои произведения.",
+                     "author": "Микеланджело"
+              },
+              {
+                     "quote": "Ах, какие бы пороки меня одолели, не пиши я! Коль хочешь что-то сделать, надо отказывать себе во всём.",
+                     "author": "Гюстав Флобер"
+              },
+              {
+                     "quote": "Если человек посвящает себя искусству, он избегнет зла, которое может произойти от праздности.",
+                     "author": "Альбрехт Дюрер"
+              },
+              {
+                     "quote": "Мои излишества в моём труде.",
+                     "author": "Оноре Бальзак"
+              },
+              {
+                     "quote": "Нам всем надо уяснить истину, что следует выбирать между радостью жизни и стремлением преуспевать.",
+                     "author": "Андре Моруа"
+              },
+              {
+                     "quote": "…либо знать женщин, либо любить их. Середины не существует.",
+                     "author": "Никола Шамфор"
+              },
+              {
+                     "quote": "Женитьба – это последнее средство для тех, кто не может воздерживаться от сношений с женщиной вообще, хотя самое лучшее именно полное воздержание.",
+                     "author": "Апостол Павел"
+              },
+              {
+                     "quote": "Единственный мужчина, который не может жить без женщин, – это гинеколог.",
+                     "author": "Артур Шопенгауэр"
+              },
+              {
+                     "quote": "…понятие введено Фрейдом, таинственный процесс претворения половой энергии в её высший вид, способствующий достижению гениальности..",
+                     "author": ""
+              },
+              {
+                     "quote": "Взлёт жизненных сил! Как это заметно у мужчин к сорока годам, особенно если избыток их плоти не направлен в деторождение, а таинственным образом преобразуется в сильные мысли.",
+                     "author": "Александр Солженицын"
+              },
+              {
+                     "quote": "Боккаччо в предисловии к «Декамерону» писал, что несчастная любовь создала ему книгу. Показательна и жизнь Бальзака. Написавший необычайно много, он за четверть века трижды кратко виделся с любимой. Полная сублимация всех сил в работу. Руссо писал роман «Новая Элоиза» в год безответной влюблённости. Вдохновение есть мощь, потенция, переключение низменных процессов на творчество.",
+                     "author": "Михаил Зощенко"
+              },
+              {
+                     "quote": "Когда накал любви достигает предела, тридцатишестилетний Гофман записывает в дневнике: «…теперь наступило время серьёзно поработать in litteris (в литературе)».",
+                     "author": ""
+              },
+              {
+                     "quote": "Любая сексуальная неустроенность вызывает подъемы творческого начала. Когда творческий акт вытесняет половой, это для здоровья не опасно, психической аномалией не является и называется сублимацией.",
+                     "author": "Зигмунд Фрейд"
+              },
+              {
+                     "quote": "Немало творцов черпали энергию из горького источника неразделённой любви. Если признаются поэты в любви к женщине пространным циклом стихов, значит, она не была взаимной. Форма психологической защиты, переадресовка энергии нереализованной потребности из одного канала в другой.",
+                     "author": ""
+              },
+              {
+                     "quote": "Я направляю своё желание от детородного органа к сердцу и уму, становясь, таким образом, неуязвимым.",
+                     "author": "Григорий Распутин"
+              },
+              {
+                     "quote": "Эта книжка – только урна с пеплом той любви, что в нём пылала.",
+                     "author": "Генрих Гейне"
+              },
+              {
+                     "quote": "…мощное чувство мощным потоком хлынуло в бессмертные стихи.",
+                     "author": "Стефан Цвейг"
+              },
+              {
+                     "quote": "Талант сублимирует физическую, психическую и сексуальную энергию в экстаз вдохновения. Творчество – сублимация половой энергии.",
+                     "author": "Виктор Савельев"
+              },
+              {
+                     "quote": "…свою нерастраченную любовь я перенёс на дочь: написал «Алёнушкины сказки».",
+                     "author": "Дмитрий Мамин-Сибиряк"
+              },
+              {
+                     "quote": "Полностью переключить свои интересы на другие сферы жизни и обойтись без этой. То есть найти достаточное удовлетворение в том, что психологи называют сублимацией, «возгонкой».",
+                     "author": "Лев Клейн"
+              },
+              {
+                     "quote": "Отречение от близости с женщиной неизбежно побуждало Киркегора к умственной деятельности. Нереализуемые плотские желания находили выход излиянием слов на бумагу. Благодаря сублимации он сохранял душевное равновесие.",
+                     "author": "Петер Роде"
+              },
+              {
+                     "quote": "Избегайте плотской близости, вынашивая замысел. Пускай сексуальная энергия накапливается, не имея разрядки, питает ваши фантазии и сновидения.",
+                     "author": "Сальвадор Дали"
+              },
+              {
+                     "quote": "…у человека нет иной энергии, кроме сексуальной.",
+                     "author": "Карлос Кастанеда"
+              },
+              {
+                     "quote": "Мне думается, искусство – это проявление полового инстинкта. Одно чувство учащает пульс при виде красивой женщины, Неаполитанского залива в лунном свете и Тицианова «Положения во гроб». Низменно всё в сравнении с творческим экстазом.",
+                     "author": "Сомерсет Моэм"
+              },
+              {
+                     "quote": "Вино, женщины – это второсортные удовольствия.",
+                     "author": "Богомил Райнов"
+              },
+              {
+                     "quote": "…услаждение плоти, для многих предельная радость, есть лишь малый удел только единой из муз.",
+                     "author": "Афиней"
+              },
+              {
+                     "quote": "Интеллектуал – человек, который нашёл дело поинтереснее, чем секс.",
+                     "author": "Олдос Хаксли"
+              },
+              {
+                     "quote": "Я проанализировал биографии 280 великих учёных. Практически все открытия они совершали до женитьбы и рождения детей. Падение уровня тестостерона после брака снижает творческую активность.",
+                     "author": "Сатоши Канадзава"
+              },
+              {
+                     "quote": "Знание сексуально, противоположность сексуальности – наивность.",
+                     "author": "Фрэн Лебовиц"
+              },
+              {
+                     "quote": "Творчество есть победа над похотью жизни, всё подлинно гениальное эротично. В половой энергии скрыт источник творческого экстаза и гениального прозрения.",
+                     "author": "Николай Бердяев"
+              },
+              {
+                     "quote": "…не импотент, но секс плохо сочетается с творчеством. Усаживаясь писать, охладеваю к женщинам. Любить или творить, а вместе перебор.",
+                     "author": "Юлиан Семёнов"
+              },
+              {
+                     "quote": "…любовь к искусству им любить мешает. Чем самозабвенней они отдаются ему, тем хуже у них с потенцией.",
+                     "author": "Шарль Бодлер"
+              },
+              {
+                     "quote": "Конечно же, это сублимация, но ещё и влияние серафических и чисто лингвистических сил.",
+                     "author": "Анна Ахматова"
+              },
+              {
+                     "quote": "Кто не умеет отказываться, тому не испытать глубокого наслаждения.",
+                     "author": "Роберт Вальзер"
+              },
+              {
+                     "quote": "Мы профанируем жизнь, мы пресыщены, надо предписывать себе курс воздержания. Английский художник Тёрнер жил в погребе. Раз в неделю он приказывал разом отворить все ставни.",
+                     "author": "Анри Матисс"
+              },
+              {
+                     "quote": "Зарок воздержания не может сделать плохое виски хорошим, но может улучшить его вкус.",
+                     "author": "Марк Твен"
+              },
+              {
+                     "quote": "Лучшая доля не в том, чтобы воздерживаться от наслаждений, а чтобы властвовать над ними, не подчиняясь им.",
+                     "author": "Аристипп"
+              },
+              {
+                     "quote": "Само презрение к наслаждению благодаря привычке становится высшим наслаждением.",
+                     "author": "Диоген"
+              },
+              {
+                     "quote": "Аскетизм, как возведённое в принцип воздержание, есть борьба с плотью для укрепления духа и одухотворения тела.",
+                     "author": "Владимир Соловьёв"
+              },
+              {
+                     "quote": "Бальзак никуда не ездит без рукописи, и любовную страсть подчиняет высшему долгу. Вот он появляется у госпожи Ганской в Женеве и сходу заявляет, что после пяти вечера возлюбленная не будет видеть его. Только после пятнадцати часов, нерушимо отданных письменному столу, он вправе отвлечься.",
+                     "author": "Стефан Цвейг"
+              },
+              {
+                     "quote": "Вот человек этот Майоль, весь день на одной селёдке! Лучше изведёт деньги на мрамор и бронзу. Живёт как аскет, потребности минимальны.",
+                     "author": "Анри Матисс"
+              },
+              {
+                     "quote": "Экономия – источник независимости. Жестоко ошибаются думающие жить высокой духовной жизнью, тогда как тела их коснеют в праздности и роскоши.",
+                     "author": "Генри Торо"
+              }
+       ]
+}
