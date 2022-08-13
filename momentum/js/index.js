@@ -262,7 +262,7 @@ function randomQuoteNum(min, max) {
 }
 
 async function getQuotes() {
-  const lang = 'ru'
+  const lang = 'en'
   const quotes = './js/quotes.json';
   const response = await fetch(quotes);
   const data = await response.json();
