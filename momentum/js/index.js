@@ -1,3 +1,5 @@
+import playList from './playList.js';
+
 const time = document.querySelector('.time');;
 const date = document.querySelector('.date');;
 const greeting = document.querySelector('.greeting');
@@ -9,24 +11,31 @@ const weatherIcon = document.querySelector('.weather-icon');
 const temperature = document.querySelector('.temperature');
 const weatherDescription = document.querySelector('.weather-description');
 const city = document.querySelector('.city');
-const weatherError = document.querySelector('.weather-error')
+const weatherError = document.querySelector('.weather-error');
 const windSpeed = document.querySelector('.wind');
 const humidity = document.querySelector('.humidity');
 const quote = document.querySelector('.quote');
 const author = document.querySelector('.author');
-const changeQuote = document.querySelector('.change-quote')
+const changeQuote = document.querySelector('.change-quote');
+const ul = document.querySelector('.play-list');
+
+const playPrev = document.querySelector('.play-prev');
+const playNext = document.querySelector('.play-next');
+const play = document.querySelector('.play');
 
 const timesOfDay = ['night', 'morning', 'afternoon', 'evening'];
-
-let randomNum;
-let quoteNum;
 
 const range = {
   min: 1,
   max: 20,
 }
 
-let bool = true;
+let randomNum;
+let quoteNum;
+let playNum = 0;
+
+let isTransition = true;
+let isPlay = false;
 
 /*
   Block 1
@@ -121,8 +130,8 @@ function setBg() {
 setBg();
 
 function getSlidePrev() {
-  if (!bool) return;
-  bool = false;
+  if (!isTransition) return;
+  isTransition = false;
 
   if (randomNum > range.min) {
     randomNum--;
@@ -134,8 +143,8 @@ function getSlidePrev() {
 }
 
 function getSlideNext() {
-  if (!bool) return;
-  bool = false;
+  if (!isTransition) return;
+  isTransition = false;
 
   if (randomNum < range.max) {
     randomNum++;
@@ -212,6 +221,8 @@ async function getWeather() {
 
 document.addEventListener('DOMContentLoaded', getWeather);
 
+setInterval(getWeather, 300e3)
+
 /*
   EXPERIMENTAL
 */
@@ -227,8 +238,7 @@ body.addEventListener('keydown', (event) => {
 })
 
 function setTrue() {
-  bool = true;
-  console.log(bool, 'st');
+  isTransition = true;
 }
 
 /*
@@ -275,5 +285,80 @@ globalThis.addEventListener('DOMContentLoaded', getQuotes);
 changeQuote.addEventListener('click', getQuotes);
 
 /*
-  Block 5
+  Block 6
+*/
+
+const audio = new Audio();
+
+function stopAudio() {
+  audio.pause();
+  isPlay = false;
+}
+
+function playAudio() {
+  if (isPlay) {
+    play.classList.remove('pause');
+    stopAudio();
+  } else {
+    play.classList.add('pause');
+    isPlay = true;
+    audio.src = playList[playNum].src;
+    audio.currentTime = 0;
+    audio.play();
+  }
+}
+
+play.addEventListener('click', playAudio);
+
+function playOther() {
+  isPlay = false;
+  playAudio();
+}
+
+function playPrevAudio() {
+  if (playNum > 0) {
+    playNum--;
+  } else {
+    playNum = playList.length - 1;
+  }
+  playOther();
+}
+
+function playNextAudio() {
+  if (playNum < playList.length - 1) {
+    playNum++;
+  } else {
+    playNum = 0;
+  }
+  playOther();
+}
+
+playPrev.addEventListener('click', playPrevAudio)
+playNext.addEventListener('click', playNextAudio)
+
+audio.addEventListener('ended', playNextAudio)
+
+function createListItem() {
+  playList.forEach(el => {
+    const li = document.createElement('li');
+    li.classList.add('play-item');
+    li.textContent = el.title;
+    ul.append(li);
+  })
+}
+
+globalThis.addEventListener('DOMContentLoaded', createListItem)
+
+audio.addEventListener('playing', (event) => {
+  let lis = document.querySelectorAll('.play-item');
+  lis.forEach(li => {
+    li.classList.remove('item-active');
+    if (event.target.getAttribute('src').includes(li.textContent)) {
+      li.classList.add('item-active');
+    }
+  })
+})
+
+/*
+  Block 7
 */
