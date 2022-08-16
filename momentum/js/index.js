@@ -612,7 +612,7 @@ function preLoad() {
   getDuration();
 }
 
-// globalThis.addEventListener('DOMContentLoaded', preLoad);
+globalThis.addEventListener('DOMContentLoaded', preLoad);
 
 const rangeInputs = document.querySelectorAll('input[type="range"]')
 
