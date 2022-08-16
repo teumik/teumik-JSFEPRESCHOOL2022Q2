@@ -219,7 +219,7 @@ body {
   content: '';
   width: 16px;
   height: 16px;
-  background-image: url(/assets/svg/play.svg);
+  background-image: url(../assets/svg/play.svg);
   background-size: 16px 16px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -241,12 +241,12 @@ body {
 }
 
 .item-active::before {
-  background-image: url(/assets/svg/pause.svg);
+  background-image: url(../assets/svg/pause.svg);
   opacity: 1;
 }
 
 .item-active-pause::before {
-  background-image: url(/assets/svg/play.svg);
+  background-image: url(../assets/svg/play.svg);
 }
 
 .player-icon,
