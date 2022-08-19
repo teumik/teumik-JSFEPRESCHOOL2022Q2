@@ -166,6 +166,7 @@ body {
 
 .settings-block {
   position: fixed;
+  z-index: 9999;
   bottom: 70px;
   left: 20px;
   padding: 10px;
@@ -325,6 +326,7 @@ body {
 
 .todo-list {
   position: fixed;
+  z-index: 9999;
   bottom: 70px;
   right: 20px;
   display: flex;
@@ -464,7 +466,6 @@ body {
   justify-content: space-between;
   padding: 5px;
   transition: height 0.3s;
-  /* border: 1px red solid; */
 }
 
 .todo-input.text {
@@ -530,7 +531,6 @@ body {
 
 .duration {
   width: 100%;
-  /* margin-top: 5px; */
   display: flex;
   justify-content: space-between;
   font-size: 12px;

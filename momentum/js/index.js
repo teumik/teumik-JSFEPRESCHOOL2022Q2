@@ -103,6 +103,10 @@ const translate = {
     humidity: {
       en: 'Humidity',
       ru: 'Влажность',
+    },
+    track: {
+      en: 'Track Name',
+      ru: 'Название Трека',
     }
   },
   settings: {
@@ -1229,6 +1233,9 @@ function changeLang() {
   showDate();
   setDefaultCity();
   setPlaceholder();
+  if (trackTitle.innerHTML === 'Track Name') {
+    trackTitle.innerHTML = translate.text.track[lang];
+  }
   inputText.placeholder = translate.placeholder.todo[lang];
   document.querySelector('.todo-label').textContent = translate.text.tab[lang];
   options[0].textContent = translate.text.today[lang];
