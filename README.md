@@ -1,2 +1,2 @@
 # teumik-JSFEPRESCHOOL2022Q2
-Private repository for @teumik
+Clone of private repository for @teumik
